@@ -27,7 +27,7 @@ jobs:
       - name: Build Node App
         run: npm run build
 
-      - name: Test using Mocha
+      - name: Test using Jest
         run: npm test
 
       - name: Install Code Coverage Tool
