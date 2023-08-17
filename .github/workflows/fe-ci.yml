@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -32,10 +32,10 @@ jobs:
 
       - name: Install Code Coverage Tool
         run: npm install nyc -g
-      
+
       - name: Generate Code Coverage
         run: nyc report --reporter=lcov
-      
+
       - name: Publish Code Coverage
         uses: actions/upload-artifact@v2
         with:
