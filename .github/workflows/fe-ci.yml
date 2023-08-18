@@ -41,3 +41,7 @@ jobs:
         with:
           name: code-coverage
           path: coverage/lcov-report
+
+      - name: Security Scan with npm audit
+        run: npm audit --audit-level=moderate
+
