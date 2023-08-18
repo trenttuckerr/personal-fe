@@ -1,15 +1,16 @@
 {
-  "include": [
-    "src/**/*.js" // Adjust the pattern to match your source files
-  ],
-  "reporter": [
-    "text",
-    "lcov",
-    "html"
-  ],
-  "all": true,
-  "cache": true,
-  "temp-dir": ".nyc_output", // This is the default, but you can specify it explicitly
-  "instrument": true,
-  "sourceMap": true
-}
+    "include": [
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "all": true,
+    "cache": true,
+    "temp-dir": ".nyc_output",
+    "instrument": true,
+    "sourceMap": true
+  }
+  
