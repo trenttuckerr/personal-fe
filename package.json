@@ -8,7 +8,7 @@
     "format": "prettier --write .",
     "lint": "eslint --config .eslintrc . --ext .js,.jsx,.mjs,.json --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest",
+    "test": "nyc jest",
     "coverage": "nyc npm run test"
   },
   "dependencies": {
