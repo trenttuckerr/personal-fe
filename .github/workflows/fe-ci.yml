@@ -42,13 +42,14 @@ jobs:
           name: code-coverage
           path: coverage/lcov-report
 
-      - name: Install Security Scanner and Authenticate
-        run: |
-          npm install -g snyk
-          snyk auth $SNYK_TOKEN  # Authenticate with your snyk account
-  
+      - name: Install Snyk CLI
+        run: npm install -g snyk
+
+      - name: Authenticate with Snyk
+        run: snyk auth $SNYK_TOKEN  # Authenticate with your snyk account
+
       - name: Security Scan
-        run: snyk test
+        run: snyk test --all-projects  # Run security scan using Snyk CLI
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}  # Use the secret for SNYK_TOKEN
 
