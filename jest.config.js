@@ -9,5 +9,7 @@ module.exports = {
     },
     testEnvironment: 'jsdom',
     testMatch: ['<rootDir>/tests/**/*.test.(js|jsx)'],
+    collectCoverage: true,
+    collectCoverageFrom: ['src/**/*.jsx'],
   };
   
