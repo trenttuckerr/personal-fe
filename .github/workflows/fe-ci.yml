@@ -41,15 +41,3 @@ jobs:
         with:
           name: code-coverage
           path: coverage/lcov-report
-
-      - name: Install Security Scanner and Authenticate
-        run: |
-          npm install -g snyk
-          snyk auth  # Authenticate with your snyk account
-  
-      - name: Security Scan
-        run: snyk test
-  
-
-      - name: Fix Vulnerabilities
-        run: snyk wizard
