@@ -12,6 +12,6 @@
     "temp-dir": ".nyc_output",
     "instrument": true,
     "sourceMap": true,
-    "report-dir": ".nyc_output"
+    "report-dir": "coverage"
   }
   
