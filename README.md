@@ -44,7 +44,7 @@ We welcome contributions from the community! To contribute to the project:
 
 ## Feedback and Support
 
-We'd love to hear your feedback or answer any questions you might have. Feel free to reach out to us through GitHub Issues or contact us at contact@example.com.
+We'd love to hear your feedback or answer any questions you might have. Feel free to reach out to us through GitHub Issues.
 
 ## License
 
