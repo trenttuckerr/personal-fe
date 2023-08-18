@@ -1,0 +1,17 @@
+{
+    "include": [
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "all": true,
+    "cache": true,
+    "temp-dir": ".nyc_output",
+    "instrument": true,
+    "sourceMap": true,
+    "report-dir": "coverage"
+  }
+  

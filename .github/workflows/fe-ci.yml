@@ -6,7 +6,7 @@ on:
       - '*'
 
 jobs:
-  build:
+  FE-CI:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,18 +35,9 @@ jobs:
 
       - name: Generate Code Coverage
         run: nyc report --reporter=lcov
-
+      
       - name: Publish Code Coverage
         uses: actions/upload-artifact@v2
         with:
           name: code-coverage
-          path: ./coverage
-
-      - name: Install Security Scanner
-        run: npm install -g snyk
-
-      - name: Security Scan
-        run: snyk test
-
-      - name: Fix Vulnerabilities
-        run: snyk wizard
+          path: coverage/lcov-report

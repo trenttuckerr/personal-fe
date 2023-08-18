@@ -1,39 +1,55 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import renderer from 'react-test-renderer';
-import App from '../src/App.jsx';
+import { render, fireEvent } from '@testing-library/react';
+import { toBeInTheDocument, toHaveAttribute } from '@testing-library/jest-dom/matchers'; // Import matchers
+import App from '../src/App';
+
+expect.extend({ toBeInTheDocument, toHaveAttribute }); // Extend matchers
 
 describe('App Component', () => {
   it('renders without crashing', () => {
-    const component = renderer.create(<App />);
-    const tree = component.toJSON();
-    expect(tree).not.toBeNull();
-    expect(tree.children[1].children[0].children[0]).toEqual(
-      'trenttucker.com'
-    );
+    const { getByText } = render(<App />);
+    const header = getByText(/trenttucker.com/i);
+    expect(header).toBeInTheDocument();
   });
 
   it('updates count correctly', () => {
-    const component = renderer.create(<App />);
-    const tree = component.toJSON();
+    const { getByText } = render(<App />);
+    const countButton = getByText(/count is 0/i);
+    expect(countButton).toBeInTheDocument();
 
-    // Find the button and simulate click event
-    const button = tree.children[2].children[1].children[0];
-    expect(button.children[0].children[0]).toEqual('count is 0');
+    fireEvent.click(countButton);
 
-    // Initial count
-    expect(button).toBeDefined();
+    const updatedCountButton = getByText(/count is 1/i);
+    expect(updatedCountButton).toBeInTheDocument();
+  });
 
-    // Simulate click and check count
-    button.props.onClick();
-    expect(button.children[0].children[0]).toEqual('count is 1');
+  it('contains Vite and React logos with links', () => {
+    const { getByAltText } = render(<App />);
+    const viteLogo = getByAltText('Vite logo');
+    const reactLogo = getByAltText('React logo');
 
-    // Simulate click and check count
-    button.props.onClick();
-    expect(button.children[0].children[0]).toEqual('count is 2');
+    expect(viteLogo).toBeInTheDocument();
+    expect(viteLogo.parentElement).toHaveAttribute('href', 'https://vitejs.dev');
 
-    // Simulate click and check count
-    button.props.onClick();
-    expect(button.children[0].children[0]).toEqual('count is 3');
+    expect(reactLogo).toBeInTheDocument();
+    expect(reactLogo.parentElement).toHaveAttribute('href', 'https://react.dev');
+  });
+
+  it('contains "Edit src/App.jsx and save to test HMR"', () => {
+    const { queryByText } = render(<App />);
+    const editInfo = queryByText((content, element) => {
+      return (
+        element.tagName.toLowerCase() === 'p' &&
+        element.textContent.includes('Edit src/App.jsx and save to test HMR')
+      );
+    });
+    expect(editInfo).toBeInTheDocument();
+  });
+
+  it('contains "Click on the Vite and React logos to learn more"', () => {
+    const { getByText } = render(<App />);
+    const learnMoreInfo = getByText(/Click on the Vite and React logos to learn more/i);
+    expect(learnMoreInfo).toBeInTheDocument();
   });
 });

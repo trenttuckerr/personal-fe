@@ -1,8 +1,5 @@
 // eslint-disable-next-line no-undef
 module.exports = {
-    env: {
-      'jest/globals': true,
-    },
     transform: {
       '^.+\\.jsx?$': 'babel-jest',
     },
@@ -10,6 +7,7 @@ module.exports = {
       '\\.(svg)$': '<rootDir>/src/mock.js',
       '\\.(css)$': '<rootDir>/src/mock.js',
     },
+    testEnvironment: 'jsdom',
     testMatch: ['<rootDir>/tests/**/*.test.(js|jsx)'],
   };
   
