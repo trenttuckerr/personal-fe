@@ -18,9 +18,9 @@ Welcome to the trenttucker.com MERN Frontend repository! This project showcases 
 
 To get started with our Awesome MERN Frontend, follow these steps:
 
-1. **Clone the Repository**: `git clone https://github.com/your-username/awesome-mern-frontend.git`
+1. **Clone the Repository**: `git clone https://github.com/trenttuckerr/mern-personal-fe.git`
 
-2. **Navigate to the Directory**: `cd awesome-mern-frontend`
+2. **Navigate to the Directory**: `cd mern-personal-fe`
 
 3. **Install Dependencies**: `npm install`
 
@@ -53,5 +53,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Crafted with ❤️ by Your Name
+  Crafted with ❤️ by schlyme (Trent Tucker)
 </p>
