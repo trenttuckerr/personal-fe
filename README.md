@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="path_to_your_logo.png" alt="Project Logo" width="150" />
-</p>
+# trenttucker.com MERN Frontend
 
-# Awesome MERN Frontend
-
-Welcome to the Awesome MERN Frontend repository! This project showcases the power of the MERN (MongoDB, Express.js, React, Node.js) stack to build modern and dynamic web applications. Our frontend is built using React and JavaScript, providing an elegant and efficient user experience.
+Welcome to the trenttucker.com MERN Frontend repository! This project showcases the power of the MERN (MongoDB, Express.js, React, Node.js) stack to build modern and dynamic web applications. Our frontend is built using React and JavaScript, providing an elegant and efficient user experience.
 
 ## Features
 
