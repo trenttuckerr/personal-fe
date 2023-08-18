@@ -34,7 +34,7 @@ jobs:
         run: npm install nyc -g
 
       - name: Generate Code Coverage
-        run: nyc report --reporter=lcov
+        run: nyc report --reporter=.nyc_output
       
       - name: Publish Code Coverage
         uses: actions/upload-artifact@v2
