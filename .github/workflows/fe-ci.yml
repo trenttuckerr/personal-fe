@@ -45,11 +45,12 @@ jobs:
       - name: Install Security Scanner and Authenticate
         run: |
           npm install -g snyk
-          snyk auth  # Authenticate with your snyk account
+          snyk auth $SNYK_TOKEN  # Authenticate with your snyk account
   
       - name: Security Scan
         run: snyk test
-  
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}  # Use the secret for SNYK_TOKEN
 
       - name: Fix Vulnerabilities
         run: snyk wizard
