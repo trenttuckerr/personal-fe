@@ -34,13 +34,13 @@ jobs:
         run: npm install nyc -g
 
       - name: Generate Code Coverage
-        run: nyc report --reporter=.nyc_output
+        run: nyc report --reporter=lcov
       
       - name: Publish Code Coverage
         uses: actions/upload-artifact@v2
         with:
           name: code-coverage
-          path: .nyc_output
+          path: coverage/lcov-report
 
       - name: Install Security Scanner
         run: npm install -g snyk
