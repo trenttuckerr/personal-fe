@@ -2,10 +2,6 @@
 
 Welcome to the trenttucker.com MERN Frontend repository! This project is a showcase of a cutting-edge MERN (MongoDB, Express.js, React, Node.js) stack implementation, highlighting the seamless integration of technologies to create a modern and dynamic web application. Our frontend leverages React and JavaScript, resulting in a refined and efficient user experience.
 
-<p align="center">
-  <img src="https://your-image-url.com" alt="Tech Graphic" width="600" />
-</p>
-
 ## Clever Implementation Highlights
 
 🧠 **Smart Code Design**: Explore the codebase to discover cleverly designed components and architecture that optimize performance and maintainability.
