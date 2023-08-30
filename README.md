@@ -18,14 +18,11 @@ Welcome to the trenttucker.com MERN Frontend repository! This project is a showc
 
 ## Feedback and Support
 
-We thrive on your feedback and are here to address any questions you might have. Don't hesitate to reach out to us through GitHub Issues.
+We thrive on your feedback and are here to address any questions you might have. Don't esitate to hreach out to us through GitHub Issues.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 <p align="center">
-  Crafted with ❤️ by schlyme (Trent Tucker)
+  Crafted by Trent
 </p>

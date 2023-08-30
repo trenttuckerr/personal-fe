@@ -1,6 +1,6 @@
 {
     "include": [
-      "src/**/*.js"
+      "src/**/*.jsx"
     ],
     "reporter": [
       "text",
@@ -9,9 +9,8 @@
     ],
     "all": true,
     "cache": true,
-    "temp-dir": ".nyc_output",
     "instrument": true,
     "sourceMap": true,
-    "report-dir": "coverage"
+    "report-dir": ".nyc_output"
   }
   
