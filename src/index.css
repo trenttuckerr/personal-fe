@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+/* App Styles */
+/* Add your existing component-specific styles here */
+
+/* Add transitions and animations */
+.transition-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.transition-fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
