@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import './Header.css';
+import '../styles/Header.css';
 
 function Header() {
   return (

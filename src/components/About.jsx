@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './About.css';
-import './index.css';
+import '../styles/About.css';
+import '../styles/index.css';
 
 function About() {
 
@@ -16,9 +16,11 @@ function About() {
         <div className="about-text">
           <h2 className="about-title">About Me</h2>
           <p className="about-description">
-            I'm a passionate Computer Science student with a strong interest in
-            algorithms, data structures, and web development. I believe in the
-            power of technology to shape the future.
+            I am a current computer science student at St. Edward's University in
+            Austin, Texas. I am a passionate computer science student with a strong
+            interest in cloud computing, software engineering, and system design. I
+            have industry experience spanning multiple internships at Goldman Sachs, where
+            I provided cloud-native solutions to business problems.
           </p>
         </div>
         <div className="about-image">
