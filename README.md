@@ -8,7 +8,7 @@ Welcome to the trenttucker.com MERN Frontend repository! This project falls with
 
 🚀 **Intuitive UI**: Immerse yourself in the frontend's sleek and intuitive user interface, demonstrating user-centric design principles.
 
-⚡️ **Real-Time Magic**: Witness the magic of React as our app provides real-time updates and dynamic interactions, eliminating the need for page reloads.
+⚡️ **Real-Time Magic**: Witness the magic of React as the app provides real-time updates and dynamic interactions, eliminating the need for page reloads.
 
 🎨 **Modularity in Mind**: Delve into the modular and component-based approach, empowering myself as the developer to easily customize and extend features.
 
