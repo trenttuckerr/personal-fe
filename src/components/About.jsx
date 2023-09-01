@@ -4,16 +4,18 @@ import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import '../styles/index.css';
 
+import HoodieImage from '../assets/hoodie.png'; // Import the image using the correct path
+
 function About() {
+  const [isVisible, setIsVisible] = useState(false);
 
+  useEffect(() => {
+    setIsVisible(true); // Trigger the animation on component mount
+  }, []);
 
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-      setIsVisible(true); // Trigger the animation on component mount
-    }, []);
   return (
     <section className={`about ${isVisible ? 'transition-fade-in' : 'transition-fade'}`} id="about">
+      <div className="border-animation"></div> {/* Border Animation Container */}
       <div className="about-content">
         <div className="about-text">
           <h2 className="about-title">About Me</h2>
@@ -26,7 +28,7 @@ function About() {
           </p>
         </div>
         <div className="about-image">
-          <img src="profile-image.jpg" alt="Profile" />
+          <img src={HoodieImage} alt="Hoodie" /> {/* Use the imported image */}
         </div>
       </div>
     </section>
