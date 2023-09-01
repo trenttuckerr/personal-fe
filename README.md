@@ -10,9 +10,8 @@ Welcome to the trenttucker.com MERN Frontend repository! This project falls with
 
 ⚡️ **Real-Time Magic**: Witness the magic of React as our app provides real-time updates and dynamic interactions, eliminating the need for page reloads.
 
-🎨 **Modularity in Mind**: Delve into our modular and component-based approach, empowering developers to easily customize and extend features.
+🎨 **Modularity in Mind**: Delve into the modular and component-based approach, empowering myself as the developer to easily customize and extend features.
 
-🔒 **Security First**: Our frontend prioritizes security best practices, ensuring your data and interactions are safeguarded.
 
 ## Feedback and Support
 
