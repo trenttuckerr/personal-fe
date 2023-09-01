@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { Link } from 'react-scroll';
 import '../styles/Header.css';
@@ -6,7 +7,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav">
-        <div className="logo">Your Name</div>
+        <div className="logo">Trent Tucker</div>
         <ul className="nav-links">
           <li><Link to="about" smooth={true} duration={500}>About</Link></li>
           <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>

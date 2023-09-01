@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import '../styles/index.css';
@@ -20,7 +22,7 @@ function About() {
             Austin, Texas. I am a passionate computer science student with a strong
             interest in cloud computing, software engineering, and system design. I
             have industry experience spanning multiple internships at Goldman Sachs, where
-            I provided cloud-native solutions to business problems.
+            I provided cloud-native solutions for business problems.
           </p>
         </div>
         <div className="about-image">
