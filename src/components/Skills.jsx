@@ -11,16 +11,17 @@ function Skills() {
           <div className="skill-category">
             <h3>Programming Languages</h3>
             <ul>
-              <li>JavaScript</li>
               <li>Python</li>
-              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
             </ul>
           </div>
           <div className="skill-category">
-            <h3>Web Development</h3>
+            <h3>Cloud</h3>
             <ul>
-              <li>React</li>
-              <li>HTML5</li>
+              <li>Serverless Architecture</li>
+              <li></li>
               <li>CSS3</li>
             </ul>
           </div>
