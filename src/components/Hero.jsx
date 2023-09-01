@@ -26,7 +26,7 @@ function Hero() {
         <div className="animated-background"></div>
         <div className="hero-content">
           <h1 className="hero-title">{typedText}</h1>
-          <p className="hero-subtitle">Powered by React / Vite</p>
+          <p className="hero-subtitle">Developed using React / Vite</p>
           <a href="https://github.com/trenttuckerr/mern-personal-fe" className="cta-button">View the code</a>
         </div>
       </div>
