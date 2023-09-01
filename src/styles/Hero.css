@@ -1,40 +1,94 @@
 /* Hero Styles */
 .hero {
-    background-image: url('background-image.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff; /* White text color */
-    text-align: center;
-    padding: 150px 0;
+  background-image: url('../assets/ai.mp4');
+  background-size: cover;
+  background-position: center;
+  color: white; /* Platinum white text color */
+  text-align: center;
+  padding: 150px 0;
+  position: relative;
+}
+
+.hero-box {
+  border: 2px solid black; /* Change border color to black */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: -1; /* Push the animated background to the back */
+}
+
+.binary-text {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: #00ff00; /* Terminal green color */
+  position: absolute;
+  animation: binaryAnimation 1s infinite;
+}
+
+@keyframes binaryAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
   }
-  
-  .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+  50% {
+    opacity: 1;
   }
-  
-  .hero-title {
-    font-size: 3rem;
-    margin-bottom: 20px;
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .hero-subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 2.5rem; /* Adjust font size */
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #00ff00; /* Terminal green color */
+  animation: typingAnimation 7s steps(40) infinite; /* Repeat every 7 seconds */
+}
+
+@keyframes typingAnimation {
+  from {
+    width: 0;
   }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: #00b3e6; /* Highlight color */
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  to {
+    width: 100%;
   }
-  
-  .cta-button:hover {
-    background-color: #018ac0; /* Darker highlight on hover */
-  }
-  
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #00b3e6;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #018ac0;
+}
