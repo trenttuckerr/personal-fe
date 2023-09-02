@@ -15,20 +15,21 @@ function About() {
 
   return (
     <section className={`about ${isVisible ? 'transition-fade-in' : 'transition-fade'}`} id="about">
-      <div className="border-animation"></div> {/* Border Animation Container */}
       <div className="about-content">
-        <div className="about-text">
-          <h2 className="about-title">About Me</h2>
-          <p className="about-description">
-            I am a current computer science student at St. Edward's University in
-            Austin, Texas. I am a passionate computer science student with a strong
-            interest in cloud computing, software engineering, and system design. I
-            have industry experience spanning multiple internships at Goldman Sachs, where
-            I provided cloud-native solutions for business problems.
-          </p>
-        </div>
-        <div className="about-image">
-          <img src={HoodieImage} alt="Hoodie" /> {/* Use the imported image */}
+        <div className="about-border">
+          <div className="about-text">
+            <h2 className="about-title">About Me</h2>
+            <p className="about-description">
+              I am a current computer science student at St. Edward's University in
+              Austin, Texas. I am a passionate computer science student with a strong
+              interest in cloud computing, software engineering, and system design. I
+              have industry experience spanning multiple internships at Goldman Sachs, where
+              I provided cloud-native solutions for business problems.
+            </p>
+          </div>
+          <div className="about-image">
+            <img src={HoodieImage} alt="Hoodie" /> {/* Use the imported image */}
+          </div>
         </div>
       </div>
     </section>

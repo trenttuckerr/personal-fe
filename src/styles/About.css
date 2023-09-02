@@ -15,6 +15,14 @@
   position: relative;
 }
 
+.about-border {
+  padding: 20px;
+  position: relative;
+  border: 2px solid transparent; /* Transparent border */
+  overflow: hidden;
+  background-color: #0d0d0d; /* Dark background color */
+}
+
 .about-text {
   text-align: center;
   margin-bottom: 50px;
@@ -32,30 +40,36 @@
 .about-image img {
   width: 185px; /* Adjust the width as needed */
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   border-radius: 50%; /* Make the image round */
 }
 
 /* Border Animation */
-.border-animation {
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: -1;
-  overflow: hidden;
-  background-color: transparent;
-  animation: borderAnimation 6s infinite linear;
+.about-border:before {
   content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  display: block;
+  background-color: transparent;
+  border: 2px solid transparent;
+  font-size: 12px;
+  line-height: 12px;
+  white-space: nowrap;
+  color: #00ff00; /* Terminal green color */
+  animation: borderAnimation 5s infinite alternate;
 }
 
 @keyframes borderAnimation {
-  0%, 100% {
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #00ff00 10px, #00ff00 20px);
-    filter: brightness(50%);
+  from {
+    opacity: 0.5;
   }
-  50% {
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #00ff00 10px, #00ff00 20px);
-    filter: brightness(100%);
+  to {
+    opacity: 1;
   }
 }
