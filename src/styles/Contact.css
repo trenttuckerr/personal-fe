@@ -1,38 +1,39 @@
 /* Contact Styles */
 .contact {
-    background-color: #0d0d0d; /* Dark background color */
-    color: #ffffff; /* White text color */
-    padding: 100px 0;
-  }
-  
-  .contact-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .contact-title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .contact-description {
-    font-size: 1.1rem;
-    margin-bottom: 40px;
-  }
-  
-  .contact-button {
-    display: inline-block;
-    padding: 10px 30px;
-    background-color: #00b3e6; /* Highlight color */
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .contact-button:hover {
-    background-color: #018ac0; /* Darker highlight on hover */
-  }
-  
+  background-color: #0d0d0d; /* Dark background color */
+  color: #ffffff; /* White text color */
+  padding: 100px 0;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #00b3e6; /* Highlight color */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #018ac0; /* Darker highlight on hover */
+}
