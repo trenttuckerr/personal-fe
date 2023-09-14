@@ -1,16 +1,9 @@
 {
-    "include": [
-      "src/**/*.jsx"
-    ],
-    "reporter": [
-      "text",
-      "lcov",
-      "html"
-    ],
-    "all": true,
-    "cache": true,
-    "instrument": true,
-    "sourceMap": true,
-    "report-dir": ".nyc_output"
-  }
-  
+  "include": ["src/**/*.jsx"],
+  "reporter": ["text", "lcov", "html"],
+  "all": true,
+  "cache": true,
+  "instrument": true,
+  "sourceMap": true,
+  "report-dir": ".nyc_output"
+}
