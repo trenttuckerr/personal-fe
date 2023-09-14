@@ -15,4 +15,5 @@ module.exports = {
   testMatch: ['<rootDir>/tests/**/*.test.js'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.jsx'],
+  coveragePathIgnorePatterns: ['src/main.jsx'],
 };
