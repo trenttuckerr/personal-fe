@@ -12,7 +12,7 @@ module.exports = {
     '\\.(png)$': '<rootDir>/src/mock.js',
   },
   testEnvironment: 'jsdom',
-  testMatch: ['<rootDir>/tests/**/*.test.(js|jsx)'],
+  testMatch: ['<rootDir>/tests/**/*.test.js'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.jsx'],
 };
