@@ -21,8 +21,9 @@ function Skills() {
             <h3>Cloud</h3>
             <ul>
               <li>Serverless Architecture</li>
-              <li></li>
-              <li>CSS3</li>
+              <li>AWS</li>
+              <li>Azure</li>
+              <li>Google Cloud</li>
             </ul>
           </div>
           <div className="skill-category">
@@ -31,6 +32,7 @@ function Skills() {
               <li>Arrays</li>
               <li>Linked Lists</li>
               <li>Trees</li>
+              <li>HashMaps</li>
             </ul>
           </div>
         </div>
