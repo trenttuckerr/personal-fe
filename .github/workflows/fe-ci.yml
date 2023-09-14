@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate Code Coverage
         run: nyc report --reporter=lcov
-      
+
       - name: Publish Code Coverage
         uses: actions/upload-artifact@v2
         with:
@@ -44,4 +44,3 @@ jobs:
 
       - name: Security Scan with npm audit
         run: npm audit --audit-level=moderate
-
