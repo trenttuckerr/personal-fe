@@ -23,7 +23,9 @@ describe('Projects Component', () => {
 
   it('displays project descriptions', () => {
     const { getAllByText } = render(<Projects />);
-    const projectDescriptions = getAllByText('Short project description goes here.');
+    const projectDescriptions = getAllByText(
+      'Short project description goes here.'
+    );
     expect(projectDescriptions.length).toBeGreaterThanOrEqual(1);
   });
 
@@ -33,10 +35,10 @@ describe('Projects Component', () => {
     expect(projectButtons.length).toBeGreaterThanOrEqual(1);
   });
 
-//   it('displays project images (commented out in the code)', () => {
-//     // You can add tests for project images if you uncomment and provide image URLs.
-//     // Example: const { getAllByAltText } = render(<Projects />);
-//     // const projectImages = getAllByAltText('Project');
-//     // expect(projectImages.length).toBeGreaterThanOrEqual(1);
-//   });
+  //   it('displays project images (commented out in the code)', () => {
+  //     // You can add tests for project images if you uncomment and provide image URLs.
+  //     // Example: const { getAllByAltText } = render(<Projects />);
+  //     // const projectImages = getAllByAltText('Project');
+  //     // expect(projectImages.length).toBeGreaterThanOrEqual(1);
+  //   });
 });
