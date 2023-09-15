@@ -15,7 +15,10 @@ function Skills() {
             <div className="table-cell">
               <h3>Development</h3>
               <div className="category-image">
-                <img src={ProgrammingLanguageImage} alt="Programming Language Visual" />
+                <img
+                  src={ProgrammingLanguageImage}
+                  alt="Programming Language Visual"
+                />
               </div>
             </div>
             <div className="table-cell">

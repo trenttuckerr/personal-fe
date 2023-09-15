@@ -21,7 +21,7 @@ function Hero() {
 
     return () => clearInterval(interval);
   }, []);
-  
+
   return (
     <section className="hero">
       <div className="background-video">
