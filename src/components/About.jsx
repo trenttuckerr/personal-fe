@@ -3,8 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import '../styles/index.css';
-import HoodieImage from '../assets/hoodie.png';
-import StedsImage from '../assets/steds.png';
+import HoodieImage from '../assets/Hoodie.png';
+import StedsImage from '../assets/StEds.png';
+import AppleImage from '../assets/Apple.jpg';
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -63,7 +64,7 @@ function About() {
             </div>
             <div className="about-image">
               <img
-                src={StedsImage}
+                src={AppleImage}
                 alt="Steds"
                 className="glitch-image"
               />
