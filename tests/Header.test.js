@@ -17,7 +17,7 @@ describe('Header Component', () => {
 
   it('displays navigation links', () => {
     const { getByText } = render(<Header />);
-    
+
     const aboutLink = getByText('About');
     expect(aboutLink).toBeInTheDocument();
 

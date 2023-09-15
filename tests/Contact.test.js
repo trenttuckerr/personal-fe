@@ -32,6 +32,9 @@ describe('Contact Component', () => {
   it('links to the correct email address', () => {
     const { getByText } = render(<Contact />);
     const buttonElement = getByText('Get in Touch');
-    expect(buttonElement).toHaveAttribute('href', 'mailto:ttucker296@gmail.com');
+    expect(buttonElement).toHaveAttribute(
+      'href',
+      'mailto:ttucker296@gmail.com'
+    );
   });
 });

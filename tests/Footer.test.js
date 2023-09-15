@@ -11,7 +11,9 @@ describe('Footer Component', () => {
 
   it('displays the copyright text', () => {
     const { getByText } = render(<Footer />);
-    const copyrightText = getByText('© 2023 Your Name. All rights reserved.');
+    const copyrightText = getByText(
+      '© 2023 Your Name. All rights reserved.'
+    );
     expect(copyrightText).toBeInTheDocument();
   });
 

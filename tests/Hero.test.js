@@ -19,6 +19,9 @@ describe('Hero Component', () => {
     const { getByText } = render(<Hero />);
     const linkElement = getByText('View the code');
     expect(linkElement).toBeInTheDocument();
-    expect(linkElement).toHaveAttribute('href', 'https://github.com/trenttuckerr/mern-personal-fe');
+    expect(linkElement).toHaveAttribute(
+      'href',
+      'https://github.com/trenttuckerr/mern-personal-fe'
+    );
   });
 });

@@ -18,17 +18,17 @@ describe('Experience Component', () => {
   it('displays job titles', () => {
     const { getAllByText } = render(<Experience />);
     const jobTitles = getAllByText('Engineering Summer Analyst');
-  
+
     // Check each job title separately
     jobTitles.forEach((jobTitle) => {
       expect(jobTitle).toBeInTheDocument();
     });
   });
-  
+
   it('displays company names', () => {
     const { getAllByText } = render(<Experience />);
     const companyNames = getAllByText('Goldman Sachs'); // Use getAllByText to get multiple elements
-  
+
     // Check each company name separately
     companyNames.forEach((companyName) => {
       expect(companyName).toBeInTheDocument();
@@ -48,8 +48,12 @@ describe('Experience Component', () => {
 
   it('displays job descriptions', () => {
     const { getByText } = render(<Experience />);
-    const jobDescription1 = getByText('Designed database schema, implemented backend business logic, and deployed cloud infrastructure for security key management application');
-    const jobDescription2 = getByText('Developed a microservice which orchestrates data event routing logic for deferred compensation workflow');
+    const jobDescription1 = getByText(
+      'Designed database schema, implemented backend business logic, and deployed cloud infrastructure for security key management application'
+    );
+    const jobDescription2 = getByText(
+      'Developed a microservice which orchestrates data event routing logic for deferred compensation workflow'
+    );
     // Add more job descriptions as needed
 
     expect(jobDescription1).toBeInTheDocument();
