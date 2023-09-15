@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import '../styles/index.css';
 import HoodieImage from '../assets/hoodie.png';
-import StedsImage from '../assets/StEds.png';
+import StedsImage from '../assets/steds.png';
 import AppleImage from '../assets/Apple.jpg';
 
 function About() {
