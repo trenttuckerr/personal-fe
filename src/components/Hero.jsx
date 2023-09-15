@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
-import backgroundVideoMp4 from '../assets/ai.mp4';
-import backgroundVideoWebm from '../assets/ai.webm';
+import backgroundVideoMp4 from '../assets/AI.mp4';
+import backgroundVideoWebm from '../assets/AI.webm';
 import '../styles/Hero.css';
 
 function Hero() {
@@ -21,7 +21,7 @@ function Hero() {
 
     return () => clearInterval(interval);
   }, []);
-
+  
   return (
     <section className="hero">
       <div className="background-video">
