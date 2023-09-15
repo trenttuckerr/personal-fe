@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import backgroundVideoWebm from '../assets/ai.webm';
-import backgroundVideoMp4 from '../assets/AI.mp4';
+import backgroundVideoMp4 from '../assets/ai.mp4';
 import '../styles/Hero.css';
 
 function Hero() {
