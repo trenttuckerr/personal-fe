@@ -7,16 +7,14 @@ import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
 import Experience from './components/Experience.jsx';
 import Contact from './components/Contact.jsx';
-import Thero from './components/Thero.jsx';
 import Footer from './components/Footer.jsx';
 import './styles/GlobalStyles.css';
-// import './styles/index.css';
-// import './styles/Tailwind.css';
+import './styles/index.css';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
-    <Thero />
+    <Hero />
     <About />
     <Skills />
     <Projects />
