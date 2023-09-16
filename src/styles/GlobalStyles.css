@@ -1,24 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-/* Global Styles */
-body {
-  font-family: 'Optima', sans-serif;
+/* GlobalStyles.css */
+
+/* Apply styles to the root HTML element to cover the entire viewport */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-/* Add any other global styles you want */
-.transition-fade {
-  opacity: 0;
-  transform: translateY(20px);
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease;
+/* Create your desired background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #000000 0%, #0f4d75 100%); /* You can adjust the colors */
+  z-index: -1;
 }
 
-.transition-fade-in {
-  opacity: 1;
-  transform: translateY(0);
+/* Add animation to the background */
+body::before {
+  animation: backgroundAnimation 10s linear infinite alternate; /* Adjust the animation duration as needed */
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
 }
