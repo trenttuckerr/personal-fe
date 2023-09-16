@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import backgroundVideoWebm from '../assets/ai.webm';
 import backgroundVideoMp4 from '../assets/ai.mp4';
+import '../styles/GlobalStyles.css'; // Import the GlobalStyles.css file
 import '../styles/Hero.css';
 
 function Hero() {
