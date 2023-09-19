@@ -61,9 +61,6 @@ function Experience() {
             </ul>
           </div>
         </div>
-        <div className="job">
-          {/* Repeat this structure for each job experience */}
-        </div>
       </div>
     </section>
   );

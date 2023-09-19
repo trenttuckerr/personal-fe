@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
-import backgroundVideoWebm from '../assets/ai.webm';
-import backgroundVideoMp4 from '../assets/ai.mp4';
+// import backgroundVideoWebm from '../assets/ai.webm';
+// import backgroundVideoMp4 from '../assets/ai.mp4';
 import '../styles/GlobalStyles.css'; // Import the GlobalStyles.css file
 import '../styles/Hero.css';
 
@@ -25,7 +25,8 @@ function Hero() {
 
   return (
     <section className="hero">
-      <div className="background-video">
+      {/* Add a container div for the video */}
+      {/* <div className="background-video">
         <video
           autoPlay
           loop
@@ -38,7 +39,7 @@ function Hero() {
           <source src={backgroundVideoWebm} type="video/webm" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
       <div className="hero-content">
         <h1 className="hero-title">{typedText}</h1>
         <p className="hero-subtitle">Developed using React / Vite</p>

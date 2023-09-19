@@ -1,7 +1,7 @@
 /* Experience Styles */
 .experience {
-  background-color: #141414; /* Dark background color */
-  color: #ffffff; /* White text color */
+  /* background-color: #141414; */
+  color: #000000; /* White text color */
   padding: 100px 0;
 }
 
@@ -14,14 +14,6 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 40px;
-}
-
-.job {
-  background-color: #1a1a1a; /* Darker background color */
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .job h3 {

@@ -15,9 +15,6 @@ function Projects() {
             View Project
           </a>
         </div>
-        <div className="project">
-          {/* Repeat this structure for each project */}
-        </div>
       </div>
     </section>
   );

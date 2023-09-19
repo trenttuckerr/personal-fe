@@ -1,7 +1,7 @@
 /* Footer Styles */
 .footer {
-  background-color: #101010; /* Dark background color */
-  color: #999999; /* Gray text color */
+  /* background-color: #101010; */
+  color: #000000; /* Gray text color */
   padding: 20px 0;
   text-align: center;
 }
@@ -22,7 +22,7 @@
 
 .footer-links a {
   text-decoration: none;
-  color: #999999;
+  color: #000000;
   margin: 0 10px;
 }
 

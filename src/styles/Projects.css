@@ -1,7 +1,7 @@
 /* Projects Styles */
 .projects {
-  background-color: #0d0d0d; /* Dark background color */
-  color: #ffffff; /* White text color */
+  /* background-color: #0d0d0d; */
+  color: #000000; /* White text color */
   padding: 100px 0;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .project {
-  background-color: #1a1a1a; /* Darker background color */
+  /* background-color: #1a1a1a; */
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 40px;

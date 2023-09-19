@@ -1,6 +1,6 @@
 /* Skills Styles */
 .skills {
-  background-color: #0d0d0d; /* Light background color */
+  /* background-color: #0d0d0d; Light background color */
   padding: 100px 0;
   text-align: center;
   border: 1px solid #e0e0e0; /* Added border */
@@ -15,7 +15,7 @@
 .skills-title {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #e0e0e0; /* Darkened text color */
+  color: #000000;
   animation:
     fadeIn 1s ease-in-out,
     bounceIn 1s ease-in-out;

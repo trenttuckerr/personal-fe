@@ -1,15 +1,11 @@
 /* About Styles */
 .about {
-  background-color: #232323; /* Dark background color */
+  /* background-color: #232323; Dark background color */
   color: #fff; /* White text color */
   padding: 100px 0;
   position: relative;
   text-align: center;
-  transition: background-color 0.3s ease; /* Smooth background color transition */
-}
-
-.about:hover {
-  background-color: #1a1a1a; /* Darken the background on hover */
+  /* transition: background-color 0.3s ease; Smooth background color transition */
 }
 
 .about-content {
