@@ -1,7 +1,7 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useRef, useState, useEffect } from 'react';
 import videojs from 'video.js';
-import background from '../assets/matrix.mp4';
+import backgroundMp4 from '../assets/matrix.mp4';
+import backgroundWebm from '../assets/matrix.webm'; // Add WebM video source
 import 'video.js/dist/video-js.css';
 
 const BackgroundVideo = () => {
@@ -18,8 +18,12 @@ const BackgroundVideo = () => {
       muted: true,
       sources: [
         {
-          src: background,
+          src: backgroundMp4,
           type: 'video/mp4',
+        },
+        {
+          src: backgroundWebm,
+          type: 'video/webm', // Add WebM video type
         },
       ],
     };
