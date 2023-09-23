@@ -8,8 +8,7 @@ function Contact() {
       <div className="contact-content">
         <h2 className="contact-title">Contact</h2>
         <p className="contact-description">
-          Interested in collaborating or have a project in mind? Let's
-          connect!
+          Connect here
         </p>
         <a
           href="mailto:ttucker296@gmail.com"
