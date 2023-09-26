@@ -5,10 +5,21 @@ import '../styles/GlobalStyles.css'; // Import the GlobalStyles.css file
 import '../styles/Hero.css';
 
 function Hero() {
-  const [typedText, setTypedText] = useState('');
-  const fullText = 'Welcome to my Personal Website';
-  const typingSpeed = 100; // Milliseconds per character
 
+  const [popIn, setPopIn] = useState(false);
+  useEffect(() => {
+    // Add a small delay to start the animation after a short delay (e.g., 500ms)
+    const delay = setTimeout(() => {
+      setPopIn(true);
+    }, 500);
+
+    return () => clearTimeout(delay);
+  }, []);
+
+
+  const [typedText, setTypedText] = useState('');
+  const fullText = 'Developed using React / Vite';
+  const typingSpeed = 175;
   useEffect(() => {
     let currentIndex = 0;
     const interval = setInterval(() => {
@@ -23,33 +34,21 @@ function Hero() {
   }, []);
 
   return (
-    <section className="hero">
-      {/* Add a container div for the video */}
-      {/* <div className="background-video">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          src={backgroundVideoMp4}
-          type="video/mp4"
-        >
-          <source src={backgroundVideoMp4} type="video/mp4" />
-          <source src={backgroundVideoWebm} type="video/webm" />
-          Your browser does not support the video tag.
-        </video>
-      </div> */}
-      <div className="hero-content">
-        <h1 className="hero-title">{typedText}</h1>
-        <p className="hero-subtitle">Developed using React / Vite</p>
-        <a
-          href="https://github.com/trenttuckerr/mern-personal-fe"
-          className="cta-button"
-        >
-          View the code
-        </a>
-      </div>
-    </section>
+  <section className="hero">
+    <div className={`hero-content ${popIn ? 'pop-in' : ''}`}>
+        <h1 className="hero-title">Welcome to my personal website</h1>
+      <p className="hero-subtitle">
+        {typedText}
+        <span className="typing-cursor"></span>
+      </p>
+      <a
+        href="https://github.com/trenttuckerr/mern-personal-fe"
+        className="cta-button"
+      >
+        View the code
+      </a>
+    </div>
+  </section>
   );
 }
 

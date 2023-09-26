@@ -8,13 +8,13 @@ function Contact() {
       <div className="contact-content">
         <h2 className="contact-title">Contact</h2>
         <p className="contact-description">
-          Connect here
+          Feel free to reach out.
         </p>
         <a
           href="mailto:ttucker296@gmail.com"
           className="contact-button"
         >
-          Get in Touch
+          Email
         </a>
       </div>
     </section>
