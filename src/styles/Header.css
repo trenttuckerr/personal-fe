@@ -1,7 +1,7 @@
 /* Header Styles */
 .header {
-  background-color: #101010; /* Dark background color */
-  color: #ffffff; /* White text color */
+  background-color: #b89338; /* Dark background color */
+  color: #002566; /* White text color */
   padding: 20px;
   position: fixed;
   top: 0;
@@ -33,7 +33,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #002566;
   cursor: pointer;
   transition: color 0.3s ease;
 }

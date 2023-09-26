@@ -1,9 +1,7 @@
-/* Skills Styles */
 .skills {
-  background-color: #0d0d0d;
   padding: 100px 0;
   text-align: center;
-  border: 1px solid #e0e0e0; /* Added border */
+  border: 1px solid #e0e0e0;
 }
 
 .skills-container {
@@ -15,7 +13,7 @@
 .skills-title {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #ffffff;
+  color: #000000;
   animation:
     fadeIn 1s ease-in-out,
     bounceIn 1s ease-in-out;
@@ -33,7 +31,7 @@
 .table-row {
   display: flex;
   width: 100%;
-  background-color: #f9f9f9; /* Lighter background color for rows */
+  background-color: #c5bcbc; /* Lighter background color for rows */
   padding: 20px 0;
   transition: background-color 0.3s ease;
 }
@@ -44,7 +42,7 @@
 
 .table-cell {
   flex: 1;
-  text-align: center;
+  text-align: left;
   padding: 10px;
   font-size: 1.2rem;
 }
