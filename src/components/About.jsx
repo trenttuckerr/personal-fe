@@ -29,8 +29,8 @@ function About() {
               student at <strong>St. Edward's University</strong> in
               Austin, Texas. My passion for computer science drives my
               strong interest in <strong>cloud computing</strong>,{' '}
-              <strong>software engineering</strong>, and{' '}
-              <strong>system design</strong>.
+              <strong>backend web development</strong>, and{' '}
+              <strong>devops</strong>.
               <br />
               <br />
               <strong>Industry Experience:</strong> I've gained
