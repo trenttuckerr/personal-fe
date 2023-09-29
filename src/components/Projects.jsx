@@ -13,6 +13,16 @@ function Projects() {
           <a href="#" className="project-button">
             View Project
           </a>
+          <h3>Database Project</h3>
+          <p>Short project description goes here.</p>
+          <a href="#" className="project-button">
+            View Project
+          </a>
+          <h3>Project Title</h3>
+          <p>Short project description goes here.</p>
+          <a href="#" className="project-button">
+            View Project
+          </a>
         </div>
       </div>
     </section>
