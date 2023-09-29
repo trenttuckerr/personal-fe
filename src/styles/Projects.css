@@ -17,11 +17,11 @@
 }
 
 .project {
-  /* background-color: #1a1a1a; */
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(184, 147, 56, 0.7);
 }
 
 .project img {

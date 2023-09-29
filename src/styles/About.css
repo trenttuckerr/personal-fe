@@ -1,3 +1,4 @@
+/* About.css */
 .about {
   color: black;
   padding: 100px 0;
@@ -12,6 +13,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: rgba(184, 147, 56, 0.7);
 }
 
 .about-border {
@@ -75,7 +77,8 @@
   line-height: 1.6;
 }
 
-.glitch-image {
+/* Individual glitch effect for each image */
+.about-image .glitch-image {
   width: 200px;
   height: auto;
   display: block;
@@ -85,7 +88,7 @@
   transition: transform 0.3s ease;
 }
 
-.glitch-image:hover {
+.about-image .glitch-image:hover {
   transform: scale(1.1);
 }
 

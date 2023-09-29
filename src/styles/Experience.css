@@ -1,6 +1,5 @@
 /* Experience Styles */
 .experience {
-  /* background-color: #141414; */
   color: #000000; /* White text color */
   padding: 100px 0;
 }
@@ -8,6 +7,7 @@
 .experience-content {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: rgba(184, 147, 56, 0.7);
 }
 
 .experience-title {

@@ -1,7 +1,8 @@
+/* Skills.css */
 .skills {
   padding: 100px 0;
   text-align: center;
-  border: 1px solid #e0e0e0;
+  color: #ffffff;
 }
 
 .skills-container {
@@ -13,70 +14,60 @@
 .skills-title {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #000000;
+  color: #b89338;
   animation:
     fadeIn 1s ease-in-out,
     bounceIn 1s ease-in-out;
 }
 
-.skills-table {
+.skills-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #ddd; /* Added a border for separation */
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.section-image {
+  /* flex: 1; */
+  text-align: center;
+}
+
+.section-image img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.section-content {
+  flex: 2;
+  background-color: rgba(184, 147, 56, 0.7);
   border-radius: 10px;
-  overflow: hidden;
+  padding: 20px;
 }
 
-.table-row {
-  display: flex;
-  width: 100%;
-  background-color: #c5bcbc; /* Lighter background color for rows */
-  padding: 20px 0;
-  transition: background-color 0.3s ease;
+.section-content h3 {
+  color: #002566;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
-.table-row:hover {
-  background-color: #eee; /* Lighter background on hover */
+.section-content ul {
+  list-style: none;
+  padding: 0;
 }
 
-.table-cell {
-  flex: 1;
-  text-align: left;
-  padding: 10px;
+.section-content ul li {
+  margin-bottom: 5px;
   font-size: 1.2rem;
 }
 
-.category-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-  position: relative;
-  overflow: hidden;
-  float: left;
-  border: 3px solid #00ff00;
-}
-
-.category-image img {
-  width: 100%;
-  height: auto;
-}
-
 /* Keyframe animations */
-@keyframes fadeIn {
+@keyframes fadeInUp {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
-  }
-}
-
-@keyframes bounceIn {
-  from {
-    transform: scale(0.8);
-  }
-  to {
-    transform: scale(1);
+    transform: translateY(0);
   }
 }
