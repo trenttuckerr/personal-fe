@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
-// import backgroundVideoWebm from '../assets/ai.webm';
-// import backgroundVideoMp4 from '../assets/ai.mp4';
 import '../styles/GlobalStyles.css'; // Import the GlobalStyles.css file
 import '../styles/Hero.css';
 
 function Hero() {
-
   const [popIn, setPopIn] = useState(false);
   useEffect(() => {
     // Add a small delay to start the animation after a short delay (e.g., 500ms)
@@ -15,7 +12,6 @@ function Hero() {
 
     return () => clearTimeout(delay);
   }, []);
-
 
   const [typedText, setTypedText] = useState('');
   const fullText = 'Developed using React / Vite';
@@ -34,21 +30,21 @@ function Hero() {
   }, []);
 
   return (
-  <section className="hero">
-    <div className={`hero-content ${popIn ? 'pop-in' : ''}`}>
+    <section className="hero">
+      <div className={`hero-content ${popIn ? 'pop-in' : ''}`}>
         <h1 className="hero-title">Welcome to my personal website</h1>
-      <p className="hero-subtitle">
-        {typedText}
-        <span className="typing-cursor"></span>
-      </p>
-      <a
-        href="https://github.com/trenttuckerr/mern-personal-fe"
-        className="cta-button"
-      >
-        View the code
-      </a>
-    </div>
-  </section>
+        <p className="hero-subtitle">
+          {typedText}
+          <span className="typing-cursor"></span>
+        </p>
+        <a
+          href="https://github.com/trenttuckerr/mern-personal-fe"
+          className="cta-button"
+        >
+          View the code
+        </a>
+      </div>
+    </section>
   );
 }
 

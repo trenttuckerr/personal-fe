@@ -25,7 +25,7 @@ function About() {
           <div className="about-text">
             <h2 className="about-title glitch-effect">About Me</h2>
             <p className="about-description">
-              <strong>Hello!</strong> I'm a current computer science
+              <strong>Hello!</strong> I'm a current senior computer science
               student at <strong>St. Edward's University</strong> in
               Austin, Texas. My passion for computer science drives my
               strong interest in <strong>cloud computing</strong>,{' '}
@@ -41,9 +41,11 @@ function About() {
               business problems.
               <br />
               <br />
-              <strong>My Journey:</strong> Join me on my journey as I
-              explore the limitless possibilities of technology and
-              innovation.
+              <strong>Education:</strong> I am currently pursuing a 
+              B.S. computer science degree at St. Edward's University and 
+              am set to graduate in May of 2024. During my time here, I have utilized
+              in depth course work and personal projects to dive
+              deep into the nuances of my passion of computer science.
             </p>
           </div>
           <div className="about-images">
@@ -64,7 +66,7 @@ function About() {
             <div className="about-image">
               <img
                 src={AppleImage}
-                alt="Steds"
+                alt="Apple"
                 className="glitch-image"
               />
             </div>
