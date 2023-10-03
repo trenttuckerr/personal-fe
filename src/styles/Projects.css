@@ -1,13 +1,18 @@
 /* Projects Styles */
 .projects {
-  /* background-color: #0d0d0d; */
-  color: #000000; /* White text color */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('background-image.jpg'); /* Replace 'background-image.jpg' with your image */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff; /* White text color */
   padding: 100px 0;
 }
 
 .projects-content {
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects-title {
@@ -18,16 +23,15 @@
 
 .project {
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-color: rgba(184, 147, 56, 0.7);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(184, 147, 56, 0.9);
+  transition: transform 0.3s ease-in-out;
 }
 
-.project img {
-  max-width: 100%;
-  border-radius: 5px;
-  margin-bottom: 10px;
+.project:hover {
+  transform: translateY(-5px);
 }
 
 .project h3 {
