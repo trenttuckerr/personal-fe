@@ -84,7 +84,7 @@
   display: block;
   margin: 20px auto;
   border-radius: 50%;
-  border: 6px solid #b89338;
+  border: 6px solid #000000;
   transition: transform 0.3s ease;
 }
 
