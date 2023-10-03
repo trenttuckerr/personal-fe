@@ -45,7 +45,7 @@ function About() {
               B.S. computer science degree at St. Edward's University and 
               am set to graduate in May of 2024. During my time here, I have utilized
               in depth course work and personal projects to dive
-              deep into the nuances of my passion of computer science.
+              deep into the nuances of my passion for computer science.
             </p>
           </div>
           <div className="about-images">
