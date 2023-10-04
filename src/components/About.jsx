@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import '../styles/index.css';
@@ -23,7 +22,7 @@ function About() {
       <div className="about-content">
         <div className="about-border">
           <div className="about-text">
-            <h2 className="about-title glitch-effect">About Me</h2>
+            <h2 className="about-title">About Me</h2>
             <p className="about-description">
               <strong>Hello!</strong> I'm a current senior computer science
               student at <strong>St. Edward's University</strong> in
