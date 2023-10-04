@@ -1,84 +1,101 @@
 /* Skills.css */
+
 .skills {
   padding: 100px 0;
   text-align: center;
   color: #ffffff;
 }
 
-.skills-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .skills-title {
   font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #b89338;
-  animation:
-    fadeIn 1s ease-in-out,
-    bounceIn 1s ease-in-out;
-}
-
-.skills-section {
-  display: flex;
-  margin-bottom: 40px;
-  animation: fadeInUp 1s ease-in-out;
-}
-
-/* Updated styles for .development, .cloud, and .devops */
-.skills-section.development,
-.skills-section.cloud,
-.skills-section.devops {
-  flex: 2;
-  background-color: #000; /* Black background for the gradient */
-  background-image: linear-gradient(to bottom, #b89338, #002566); /* Linear gradient from black to white */
+  margin-bottom: 20px;
+  color: #000000;
+  text-shadow: 8px 8px 16px rgba(184, 147, 56, 0.5); /* Increased text shadow size */
+  background: rgba(255, 255, 255, 0.7);
+  padding: 15px 30px; /* Increased padding */
   border-radius: 10px;
+  display: inline-block;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the skills-container */
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Adjust spacing between image and content */
-  align-items: center; /* Center content vertically */
-  text-align: center;
-  color: #fff; /* Text color is white */
+  align-items: center;
 }
 
-.skillTitle {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+/* Updated styles for .carousel-content */
+.carousel-content {
+  background-color: rgba(0, 0, 0, 0.7); /* Updated background color with more transparency */
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.carousel-title {
+
 }
 
 /* Updated styles for .section-content */
-.skills-section .section-content {
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color as needed */
+.carousel-content .section-content {
+  padding: 20px;
+}
+
+/* Updated styles for .development, .cloud, and .devops */
+.carousel-content.development,
+.carousel-content.cloud,
+.carousel-content.devops {
+  flex: 2;
+  border-radius: 10px;
+  padding: 40px; /* Increased padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9); /* Increased background transparency */
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Updated styles for .section-content within carousel */
+.carousel-content .section-content {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(184, 147, 56, 0.7));
   padding: 20px;
   border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out;
 }
 
-.skills-section .section-content h3 {
-  color: #fff; /* Change text color to white */
-  font-size: 1.8rem; /* Increase heading font size */
-  margin-bottom: 15px; /* Adjust margin for better spacing */
+.carousel-content .section-content h3 {
+  color: #002566;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
 }
 
-.skills-section .section-content ul {
+.carousel-content .section-content ul {
   list-style: none;
   padding: 0;
-  text-align: left; /* Align bullet points to the left */
-  margin-left: 20px; /* Add left margin to align bullet points with text */
+  text-align: center;
+  margin-left: 20px;
 }
 
-.skills-section .section-content ul li {
-  margin-bottom: 10px; /* Adjust spacing between list items */
-  font-size: 1.4rem; /* Increase list item font size */
+.carousel-content .section-content ul li {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+/* Scale up the text and box on hover */
+.carousel-content .section-content ul li.grow-on-hover:hover {
+  transform: scale(1.1);
 }
 
 /* Add this style to make the text grow on hover */
 .grow-on-hover {
-  transition: transform 0.1s ease-in-out; /* Smooth transition effect */
-}
-
-/* Scale up the text on hover */
-.grow-on-hover:hover {
-  transform: scale(1.1); /* Increase the size by 10% on hover */
+  transition: transform ease-in-out;
 }
