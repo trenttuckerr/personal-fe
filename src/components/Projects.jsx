@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="projects-content">
-        <h2 className="projects-title">Projects</h2>
+        <h2 className="projects-title">Various Projects</h2>
         <div className="project">
           {/* <img src="project-image.jpg" alt="Project" /> */}
           <h3>Transportation as a Service WeGo Project</h3>

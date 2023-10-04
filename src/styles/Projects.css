@@ -1,9 +1,6 @@
 /* Projects Styles */
 .projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('background-image.jpg'); /* Replace 'background-image.jpg' with your image */
-  background-size: cover;
-  background-position: center;
-  color: #ffffff; /* White text color */
+  color: #321b1b; /* White text color */
   padding: 100px 0;
 }
 
