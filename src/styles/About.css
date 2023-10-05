@@ -1,6 +1,5 @@
-/* About.css */
 .about {
-  color: black;
+  color: #000000;
   padding: 100px 0;
   position: relative;
   text-align: center;
@@ -18,14 +17,9 @@
 .about-border {
   padding: 20px;
   position: relative;
-  border: 4px solid #b89338;
-  background-color: rgba(184, 147, 56, 0.7);
+  background-color: rgba(148, 148, 148, 0.9);
   border-radius: 20px;
   transition: border-color 0.3s ease;
-}
-
-.about:hover .about-border {
-  border-color: #b89338;
 }
 
 .about-text {
@@ -35,21 +29,9 @@
 .about-title {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #002566;
+  color: #07203f;
   position: relative;
 }
-
-/* .about-title::before {
-  content: 'A';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  clip-path: polygon(5% 0%, 25% 0%, 15% 100%, 0% 100%);
-  background-color: transparent;
-  animation: glitch 1s infinite alternate-reverse;
-} */
 
 @keyframes glitch {
   0% {
@@ -77,14 +59,13 @@
   line-height: 1.6;
 }
 
-/* Individual glitch effect for each image */
 .about-image .glitch-image {
   width: 200px;
   height: auto;
   display: block;
   margin: 20px auto;
   border-radius: 50%;
-  border: 6px solid #000000;
+  border: 6px solid #07203f;
   transition: transform 0.3s ease;
 }
 

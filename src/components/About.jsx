@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
-import '../styles/index.css';
 import HoodieImage from '../assets/hoodie.png';
 import StedsImage from '../assets/steds.png';
 import AppleImage from '../assets/Apple.jpg';
@@ -24,10 +23,9 @@ function About() {
           <div className="about-text">
             <h2 className="about-title">About Me</h2>
             <p className="about-description">
-              <strong>Hello!</strong> I'm a current senior computer science
+              <strong>Hello.</strong> I'm a current senior computer science
               student at <strong>St. Edward's University</strong> in
-              Austin, Texas. My passion for computer science drives my
-              strong interest in <strong>cloud computing</strong>,{' '}
+              Austin, Texas. I hold a strong interest in <strong>cloud computing</strong>,{' '}
               <strong>backend web development</strong>, and{' '}
               <strong>devops</strong>.
               <br />
@@ -44,7 +42,7 @@ function About() {
               B.S. computer science degree at St. Edward's University and 
               am set to graduate in May of 2024. During my time here, I have utilized
               in depth course work and personal projects to dive
-              deep into the nuances of my passion for computer science.
+              deep into the nuances of CS.
             </p>
           </div>
           <div className="about-images">
