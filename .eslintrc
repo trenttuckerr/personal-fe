@@ -4,7 +4,7 @@
     "browser": true,
     "es2022": true,
     "node": true,
-    "jest/globals": true // Include Jest globals
+    "jest/globals": true
   },
   "extends": [
     "eslint:recommended",
@@ -17,7 +17,8 @@
     ".eslintrc.cjs",
     "package-lock.json",
     "package.json",
-    "node_modules/"
+    "node_modules/",
+    "coverage/"
   ],
   "parserOptions": {
     "ecmaVersion": 2021,
@@ -25,10 +26,10 @@
   },
   "settings": {
     "react": {
-      "version": "latest"
+      "version": "18.0.0"
     }
   },
-  "plugins": ["react-refresh", "jest"], // Include Jest plugin
+  "plugins": ["react-refresh", "jest", "react"],
   "rules": {
     "react-refresh/only-export-components": [
       "warn",
