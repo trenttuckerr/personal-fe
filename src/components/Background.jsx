@@ -1,11 +1,11 @@
-import React from "react";
-import sunset from "../assets/sunset.jpg"
+import React from 'react';
+import Modern from "../assets/Modern.jpg"
 
 const Background = () => {
         return (
             <div
                 style={{
-                        backgroundImage: `url(${sunset})`,
+                        backgroundImage: `url(${Modern})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         minHeight: '100vh',
