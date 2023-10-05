@@ -20,7 +20,7 @@ describe('Skills Component', () => {
     const developmentTitle = getByText('🛠️ Development 🛠️');
     const cloudTitle = getByText('☁️ Cloud and Infrastructure ☁️');
     const devOpsTitle = getByText('🛠️ DevOps and Tools 🛠️');
-    
+
     expect(developmentTitle).toBeInTheDocument();
     expect(cloudTitle).toBeInTheDocument();
     expect(devOpsTitle).toBeInTheDocument();
@@ -31,7 +31,7 @@ describe('Skills Component', () => {
     const developmentList = getByText('🐍 Python');
     const cloudList = getByText('☁️ AWS Lambda');
     const devOpsList = getByText('🔄 CI/CD Pipelines');
-    
+
     expect(developmentList).toBeInTheDocument();
     expect(cloudList).toBeInTheDocument();
     expect(devOpsList).toBeInTheDocument();

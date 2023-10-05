@@ -28,7 +28,7 @@ describe('Header Component', () => {
     const projectsLink = getByText('Projects');
     const experienceLink = getByText('Experience');
     const contactLink = getByText('Contact');
-    
+
     expect(aboutLink).toBeInTheDocument();
     expect(skillsLink).toBeInTheDocument();
     expect(projectsLink).toBeInTheDocument();

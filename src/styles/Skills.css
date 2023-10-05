@@ -59,7 +59,11 @@
 }
 
 .carousel-content .section-content {
-  background: linear-gradient(to bottom, rgba(148, 148, 148, 0.3), rgba(245, 246, 244, 0.8));
+  background: linear-gradient(
+    to bottom,
+    rgba(148, 148, 148, 0.3),
+    rgba(245, 246, 244, 0.8)
+  );
   padding: 20px;
   border-radius: 10px;
   width: 100%;

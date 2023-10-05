@@ -21,7 +21,9 @@
 
 .job {
   transform: translateY(0);
-  transition: opacity 0.5s, transform 0.5s;
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
   margin-bottom: 40px;
 }
 
