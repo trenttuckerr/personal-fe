@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
@@ -6,33 +5,41 @@ import Skills from '../src/components/Skills';
 
 describe('Skills Component', () => {
   it('renders without crashing', () => {
-    render(<Skills />);
+    const { container } = render(<Skills />);
+    expect(container).toBeInTheDocument();
   });
 
-  it('displays the "Skills" title', () => {
-    const { getByText } = render(<Skills />);
-    const titleElement = getByText('Skills');
-    expect(titleElement).toBeInTheDocument();
+  it('has the correct class name', () => {
+    const { container } = render(<Skills />);
+    const skills = container.querySelector('.skills');
+    expect(skills).toHaveClass('skills');
   });
 
-  it('displays programming languages', () => {
+  it('renders technical skills titles', () => {
     const { getByText } = render(<Skills />);
-    const programmingLanguages = getByText('Programming Languages');
-    expect(programmingLanguages).toBeInTheDocument();
-    // Add more expectations for specific programming languages as needed
+    const developmentTitle = getByText('🛠️ Development 🛠️');
+    const cloudTitle = getByText('☁️ Cloud and Infrastructure ☁️');
+    const devOpsTitle = getByText('🛠️ DevOps and Tools 🛠️');
+    
+    expect(developmentTitle).toBeInTheDocument();
+    expect(cloudTitle).toBeInTheDocument();
+    expect(devOpsTitle).toBeInTheDocument();
   });
 
-  it('displays cloud skills', () => {
+  it('renders technical skills lists', () => {
     const { getByText } = render(<Skills />);
-    const cloudSkills = getByText('Cloud');
-    expect(cloudSkills).toBeInTheDocument();
-    // Add more expectations for specific cloud skills as needed
+    const developmentList = getByText('🐍 Python');
+    const cloudList = getByText('☁️ AWS Lambda');
+    const devOpsList = getByText('🔄 CI/CD Pipelines');
+    
+    expect(developmentList).toBeInTheDocument();
+    expect(cloudList).toBeInTheDocument();
+    expect(devOpsList).toBeInTheDocument();
   });
 
-  it('displays data structures', () => {
-    const { getByText } = render(<Skills />);
-    const dataStructures = getByText('Data Structures');
-    expect(dataStructures).toBeInTheDocument();
-    // Add more expectations for specific data structures as needed
+  it('renders the carousel component', () => {
+    const { container } = render(<Skills />);
+    const carousel = container.querySelector('.carousel');
+    expect(carousel).toBeInTheDocument();
   });
 });

@@ -1,63 +1,26 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Experience from '../src/components/Experience';
 
 describe('Experience Component', () => {
-  it('renders without crashing', () => {
-    render(<Experience />);
-  });
-
-  it('displays the "Experience" title', () => {
-    const { getByText } = render(<Experience />);
-    const titleElement = getByText('Experience');
-    expect(titleElement).toBeInTheDocument();
-  });
-
-  it('displays job titles', () => {
-    const { getAllByText } = render(<Experience />);
-    const jobTitles = getAllByText('Engineering Summer Analyst');
-
-    // Check each job title separately
-    jobTitles.forEach((jobTitle) => {
-      expect(jobTitle).toBeInTheDocument();
+    it('renders without crashing', () => {
+        const { getByText, getAllByRole } = render(<Experience />);
+        const experienceTitle = getByText('Professional Experience');
+        const jobTitles = getAllByRole('heading', { level: 3 });
+        expect(experienceTitle).toBeInTheDocument();
+        expect(jobTitles.length).toBe(2);
     });
-  });
 
-  it('displays company names', () => {
-    const { getAllByText } = render(<Experience />);
-    const companyNames = getAllByText('Goldman Sachs'); // Use getAllByText to get multiple elements
-
-    // Check each company name separately
-    companyNames.forEach((companyName) => {
-      expect(companyName).toBeInTheDocument();
+    it('has the correct job details', () => {
+        const { getAllByText } = render(<Experience />);
+        const jobTitleText = getAllByText('Engineering Summer Analyst');
+        const jobCompanyText = getAllByText('Goldman Sachs');
+        const jobLocationText = getAllByText('New York City Metropolitan Area');
+        const jobDateText = getAllByText(/June \d{4} - August \d{4}/);
+        expect(jobTitleText).toHaveLength(2);
+        expect(jobCompanyText).toHaveLength(2);
+        expect(jobLocationText).toHaveLength(2);
+        expect(jobDateText).toHaveLength(2);
     });
-  });
-
-  it('displays job dates', () => {
-    const { getByText } = render(<Experience />);
-    const jobDate1 = getByText('June 2023 - August 2023');
-    const jobDate2 = getByText('June 2022 - August 2022');
-    // Add more job dates as needed
-
-    expect(jobDate1).toBeInTheDocument();
-    expect(jobDate2).toBeInTheDocument();
-    // Add more expectations for job dates as needed
-  });
-
-  it('displays job descriptions', () => {
-    const { getByText } = render(<Experience />);
-    const jobDescription1 = getByText(
-      'Designed database schema, implemented backend business logic, and deployed cloud infrastructure for security key management application'
-    );
-    const jobDescription2 = getByText(
-      'Developed a microservice which orchestrates data event routing logic for deferred compensation workflow'
-    );
-    // Add more job descriptions as needed
-
-    expect(jobDescription1).toBeInTheDocument();
-    expect(jobDescription2).toBeInTheDocument();
-    // Add more expectations for job descriptions as needed
-  });
 });

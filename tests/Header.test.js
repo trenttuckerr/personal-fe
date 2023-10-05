@@ -1,36 +1,38 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
+import { render } from '@testing-library/react';
 import Header from '../src/components/Header';
 
 describe('Header Component', () => {
   it('renders without crashing', () => {
-    render(<Header />);
+    const { container } = render(<Header />);
+    expect(container).toBeInTheDocument();
   });
 
-  it('displays the logo', () => {
+  it('has the correct class name', () => {
+    const { container } = render(<Header />);
+    const header = container.querySelector('.header');
+    expect(header).toHaveClass('header');
+  });
+
+  it('renders the logo text', () => {
     const { getByText } = render(<Header />);
     const logoText = getByText('Trent Tucker');
     expect(logoText).toBeInTheDocument();
   });
 
-  it('displays navigation links', () => {
+  it('renders navigation links', () => {
     const { getByText } = render(<Header />);
-
     const aboutLink = getByText('About');
-    expect(aboutLink).toBeInTheDocument();
-
     const skillsLink = getByText('Skills');
-    expect(skillsLink).toBeInTheDocument();
-
     const projectsLink = getByText('Projects');
-    expect(projectsLink).toBeInTheDocument();
-
     const experienceLink = getByText('Experience');
-    expect(experienceLink).toBeInTheDocument();
-
     const contactLink = getByText('Contact');
+    
+    expect(aboutLink).toBeInTheDocument();
+    expect(skillsLink).toBeInTheDocument();
+    expect(projectsLink).toBeInTheDocument();
+    expect(experienceLink).toBeInTheDocument();
     expect(contactLink).toBeInTheDocument();
   });
 });
