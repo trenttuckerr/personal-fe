@@ -1,7 +1,5 @@
-/* Footer Styles */
 .footer {
-  /* background-color: #101010; */
-  color: #000000; /* Gray text color */
+  color: #000000;
   padding: 20px 0;
   text-align: center;
 }
@@ -27,5 +25,5 @@
 }
 
 .footer-links a:hover {
-  color: #00b3e6; /* Highlight color on hover */
+  color: #00b3e6;
 }
