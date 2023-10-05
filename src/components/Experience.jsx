@@ -9,7 +9,9 @@ function Experience() {
         <div className="job">
           <h3 className="job-title">Engineering Summer Analyst</h3>
           <p className="job-company">Goldman Sachs</p>
-          <p className="job-location">New York City Metropolitan Area</p>
+          <p className="job-location">
+            New York City Metropolitan Area
+          </p>
           <p className="job-date">June 2023 - August 2023</p>
           <div className="job-description">
             <p>
@@ -31,7 +33,7 @@ function Experience() {
                 Developed Infrastructure as Code to deploy an
                 Application Load Balancer, Aurora PostgreSQL database,
                 Lambda functions, and security groups to AWS to
-                support the application's cloud environment.
+                support the application&apos;s cloud environment.
               </li>
             </ul>
           </div>
@@ -39,7 +41,9 @@ function Experience() {
         <div className="job">
           <h3 className="job-title">Engineering Summer Analyst</h3>
           <p className="job-company">Goldman Sachs</p>
-          <p className="job-location">New York City Metropolitan Area</p>
+          <p className="job-location">
+            New York City Metropolitan Area
+          </p>
           <p className="job-date">June 2022 - August 2022</p>
           <div className="job-description">
             <p>
@@ -48,8 +52,9 @@ function Experience() {
             </p>
             <ul className="job-highlights">
               <li>
-                Utilized a distributed, event-driven system with Apache Kafka
-                as a streaming platform for managing data lifecycle.
+                Utilized a distributed, event-driven system with
+                Apache Kafka as a streaming platform for managing data
+                lifecycle.
               </li>
               <li>
                 Created a Node.js project using Typescript for

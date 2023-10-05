@@ -23,14 +23,16 @@ function About() {
           <div className="about-text">
             <h2 className="about-title">About Me</h2>
             <p className="about-description">
-              <strong>Hello.</strong> I'm a current senior computer science
-              student at <strong>St. Edward's University</strong> in
-              Austin, Texas. I hold a strong interest in <strong>cloud computing</strong>,{' '}
+              <strong>Hello.</strong> I&apos;m a current senior
+              computer science student at{' '}
+              <strong>St. Edward&apos;s University</strong> in Austin,
+              Texas. I hold a strong interest in{' '}
+              <strong>cloud computing</strong>,{' '}
               <strong>backend web development</strong>, and{' '}
               <strong>devops</strong>.
               <br />
               <br />
-              <strong>Industry Experience:</strong> I've gained
+              <strong>Industry Experience:</strong> I&apos;ve gained
               valuable industry experience through multiple
               internships at <strong>Goldman Sachs</strong>. During my
               time there, I focused on providing{' '}
@@ -38,11 +40,11 @@ function About() {
               business problems.
               <br />
               <br />
-              <strong>Education:</strong> I am currently pursuing a 
-              B.S. computer science degree at St. Edward's University and 
-              am set to graduate in May of 2024. During my time here, I have utilized
-              in depth course work and personal projects to dive
-              deep into the nuances of CS.
+              <strong>Education:</strong> I am currently pursuing a
+              B.S. computer science degree at St. Edward&apos;s
+              University and am set to graduate in May of 2024. During
+              my time here, I have utilized in depth course work and
+              personal projects to dive deep into the nuances of CS.
             </p>
           </div>
           <div className="about-images">
