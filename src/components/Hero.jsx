@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/GlobalStyles.css'; // Import the GlobalStyles.css file
+import '../styles/GlobalStyles.css';
 import '../styles/Hero.css';
 
 function Hero() {
   const [popIn, setPopIn] = useState(false);
   useEffect(() => {
-    // Add a small delay to start the animation after a short delay (e.g., 500ms)
     const delay = setTimeout(() => {
       setPopIn(true);
     }, 500);
@@ -41,7 +40,7 @@ function Hero() {
           href="https://github.com/trenttuckerr/mern-personal-fe"
           className="cta-button"
         >
-          View the code
+          View website code
         </a>
       </div>
     </section>
