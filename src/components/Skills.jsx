@@ -7,17 +7,15 @@ function Skills() {
   return (
     <section className="skills" id="skills">
       <div className="skills-container">
-        {/* Carousel */}
         <Carousel
           showThumbs={false}
           dynamicHeight={false}
-          width="800px"
+          width="100%"
         >
-          {/* Slide 1: Development */}
           <div>
             <div className="carousel-content development" data-aos="fade-right">
               <div className="section-content">
-              <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
+                <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
                 <h3 className="carousel-title">🛠️ Development 🛠️</h3>
                 <ul>
                   <li className="grow-on-hover">🐍 Python</li>
@@ -34,12 +32,10 @@ function Skills() {
               </div>
             </div>
           </div>
-
-          {/* Slide 2: Cloud */}
           <div>
             <div className="carousel-content cloud" data-aos="fade-right">
               <div className="section-content">
-              <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
+                <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
                 <h3 className="carousel-title">☁️ Cloud and Infrastructure ☁️</h3>
                 <ul>
                   <li className="grow-on-hover">☁️ AWS Lambda</li>
@@ -56,12 +52,10 @@ function Skills() {
               </div>
             </div>
           </div>
-
-          {/* Slide 3: DevOps */}
           <div>
             <div className="carousel-content devops" data-aos="fade-right">
               <div className="section-content">
-              <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
+                <h2 className="skills-title">🚀 Technical Skills 🚀</h2>
                 <h3 className="carousel-title">🛠️ DevOps and Tools 🛠️</h3>
                 <ul>
                   <li className="grow-on-hover">🔄 CI/CD Pipelines</li>
