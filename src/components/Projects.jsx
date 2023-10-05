@@ -7,7 +7,6 @@ function Projects() {
       <div className="projects-content">
         <h2 className="projects-title">Various Projects</h2>
         <div className="project">
-          {/* <img src="project-image.jpg" alt="Project" /> */}
           <h3>Transportation as a Service WeGo Project</h3>
           <p>Practiced scrum and agile on a team of 9 to develop a PoC that was designed to serve medically-related issues utilizing autonomous vehicles.</p>
           <h4>Topics Covered</h4>
