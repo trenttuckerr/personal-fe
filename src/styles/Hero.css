@@ -1,38 +1,33 @@
-/* Hero Styles */
 .hero {
   position: relative;
-  color: #b89338;
+  color: #f5f6f4;
   text-align: center;
   padding: 175px 0;
   overflow: hidden;
 }
 
-/* Hero Content */
 .hero-content {
-  border: 2px solid black; /* Change border color to black */
+  border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  /* background-color: rgba(0, 37, 102, 0.1); */
-  opacity: 0; /* Start with opacity 0 */
-  transform: translateY(-20px); /* Start with a slightly raised position */
+  opacity: 0;
+  transform: translateY(-20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-  background-color: rgba(0, 37, 102, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .pop-in {
-  opacity: 1; /* Animate opacity to 1 */
-  transform: translateY(0); /* Animate position to the original */
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .hero-title {
-  font-size: 2.5rem; /* Adjust font size */
+  font-size: 2.5rem;
   margin-bottom: 20px;
   white-space: nowrap;
   overflow: hidden;
-  /* border-right: 0.15em solid #00ff00; Terminal green color */
-  /* animation: typingAnimation 7s steps(40) infinite; Repeat every 7 seconds */
 }
 
 @keyframes typingAnimation {
@@ -48,17 +43,16 @@
   font-size: 1.5rem;
   margin-bottom: 40px;
   position: relative;
-  color: #b89338;
+  color: #f5f6f4;
 }
-
 
 .typing-cursor {
   display: inline-block;
-  width: 0.15em; /* Width of the cursor line */
-  height: 1.2em; /* Height of the cursor line */
-  background-color: #00ff00; /* Green color for cursor */
-  margin-left: 5px; /* Adjust the distance between text and cursor */
-  animation: cursorBlink 1s infinite; /* Blinking animation */
+  width: 0.15em;
+  height: 1.2em;
+  background-color: #00ff00;
+  margin-left: 5px;
+  animation: cursorBlink 1s infinite;
 }
 
 @keyframes cursorBlink {
@@ -73,8 +67,8 @@
 .cta-button {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #00b3e6;
-  color: black;
+  background-color: #07203f;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -84,7 +78,5 @@
 }
 
 .cta-button:hover {
-  background-color: #018ac0;
+  background-color: #1259ac;
 }
-
-
