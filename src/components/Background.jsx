@@ -1,5 +1,5 @@
 import React from 'react';
-import Modern from '../assets/modern.jpg';
+import Modern from '../assets/Modern.jpg';
 
 const Background = () => {
   return (

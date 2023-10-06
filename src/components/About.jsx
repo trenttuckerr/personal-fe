@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
 import HoodieImage from '../assets/hoodie.png';
 import StedsImage from '../assets/steds.png';
-import AppleImage from '../assets/apple.jpg';
+import AppleImage from '../assets/Apple.jpg';
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
