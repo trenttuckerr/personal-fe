@@ -14,8 +14,8 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>
-              Skills
+            <Link to="experience" smooth={true} duration={500}>
+              Experience
             </Link>
           </li>
           <li>
@@ -24,8 +24,8 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="experience" smooth={true} duration={500}>
-              Experience
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
             </Link>
           </li>
           <li>
