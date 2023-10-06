@@ -2,8 +2,9 @@
   "root": true,
   "env": {
     "browser": true,
-    "es2020": true,
-    "jest/globals": true // Added Jest globals
+    "es2022": true,
+    "node": true,
+    "jest/globals": true
   },
   "extends": [
     "eslint:recommended",
@@ -16,22 +17,29 @@
     ".eslintrc.cjs",
     "package-lock.json",
     "package.json",
-    "node_modules/"
+    "node_modules/",
+    "coverage/"
   ],
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 2021,
     "sourceType": "module"
   },
   "settings": {
     "react": {
-      "version": "18.2"
+      "version": "18.0.0"
     }
   },
-  "plugins": ["react-refresh", "jest"], // Added Jest plugin
+  "plugins": ["react-refresh", "jest", "react"],
   "rules": {
     "react-refresh/only-export-components": [
       "warn",
       { "allowConstantExport": true }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "React"
+      }
     ]
   }
 }
