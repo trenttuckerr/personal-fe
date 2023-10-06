@@ -18,9 +18,7 @@ function Skills() {
               data-aos="fade-right"
             >
               <div className="section-content">
-                <h2 className="skills-title">
-                  Technical Skills
-                </h2>
+                <h2 className="skills-title">Technical Skills</h2>
                 <h3 className="carousel-title">🛠️ Development 🛠️</h3>
                 <ul>
                   <li className="grow-on-hover">🐍 Python</li>
@@ -45,9 +43,7 @@ function Skills() {
               data-aos="fade-right"
             >
               <div className="section-content">
-                <h2 className="skills-title">
-                  Technical Skills
-                </h2>
+                <h2 className="skills-title">Technical Skills</h2>
                 <h3 className="carousel-title">
                   ☁️ Cloud and Infrastructure ☁️
                 </h3>
@@ -84,9 +80,7 @@ function Skills() {
               data-aos="fade-right"
             >
               <div className="section-content">
-                <h2 className="skills-title">
-                  Technical Skills
-                </h2>
+                <h2 className="skills-title">Technical Skills</h2>
                 <h3 className="carousel-title">
                   🛠️ DevOps and Tools 🛠️
                 </h3>
