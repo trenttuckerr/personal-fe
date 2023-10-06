@@ -1,6 +1,6 @@
 # trenttucker.com React + Vite + JS Frontend
 
-Welcome to the trenttucker.com MERN Frontend repository! This project falls within a showcase of the MERN (MongoDB, Express.js, React, Node.js) stack implementation, highlighting the seamless integration of technologies to create a modern and dynamic web application. Here you'll find the frontend - the React part of this stack. The frontend leverages React, Vite, and JavaScript, resulting in a refined and efficient user experience.
+Welcome to the trenttucker.com frontend repository! The frontend leverages React, Vite, and JavaScript, resulting in a refined and efficient user experience.
 
 ## Implementation Highlights
 
