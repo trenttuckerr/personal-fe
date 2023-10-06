@@ -17,9 +17,9 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <Hero />
     <About />
-    <Skills />
-    <Projects />
     <Experience />
+    <Projects />
+    <Skills />
     <Contact />
     <Footer />
   </React.StrictMode>
