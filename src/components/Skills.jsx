@@ -19,7 +19,7 @@ function Skills() {
             >
               <div className="section-content">
                 <h2 className="skills-title">
-                  🚀 Technical Skills 🚀
+                  Technical Skills
                 </h2>
                 <h3 className="carousel-title">🛠️ Development 🛠️</h3>
                 <ul>
@@ -29,7 +29,7 @@ function Skills() {
                   <li className="grow-on-hover">📘 TypeScript</li>
                   <li className="grow-on-hover">⚛️ React</li>
                   <li className="grow-on-hover">🌐 Node.js</li>
-                  <li className="grow-on-hover">🌟 Express.js</li>
+                  <li className="grow-on-hover">🌟 Django</li>
                   <li className="grow-on-hover">🌶️ Flask</li>
                   <li className="grow-on-hover">
                     🔗 API Design and Development
@@ -46,7 +46,7 @@ function Skills() {
             >
               <div className="section-content">
                 <h2 className="skills-title">
-                  🚀 Technical Skills 🚀
+                  Technical Skills
                 </h2>
                 <h3 className="carousel-title">
                   ☁️ Cloud and Infrastructure ☁️
@@ -54,17 +54,17 @@ function Skills() {
                 <ul>
                   <li className="grow-on-hover">☁️ AWS Lambda</li>
                   <li className="grow-on-hover">
-                    ☁️ AWS Elastic Load Balancing
+                    🌐 AWS Elastic Load Balancing
                   </li>
                   <li className="grow-on-hover">
-                    ☁️ AWS Aurora PostgreSQL
+                    🐘 AWS Aurora PostgreSQL
                   </li>
-                  <li className="grow-on-hover">☁️ AWS CloudWatch</li>
+                  <li className="grow-on-hover">📊 AWS CloudWatch</li>
                   <li className="grow-on-hover">
-                    ☁️ Infrastructure as Code
+                    🏗️ Infrastructure as Code
                   </li>
                   <li className="grow-on-hover">
-                    ☁️ AWS API Gateway
+                    🚪 AWS API Gateway
                   </li>
                   <li className="grow-on-hover">
                     🏢 Serverless Architecture
@@ -85,7 +85,7 @@ function Skills() {
             >
               <div className="section-content">
                 <h2 className="skills-title">
-                  🚀 Technical Skills 🚀
+                  Technical Skills
                 </h2>
                 <h3 className="carousel-title">
                   🛠️ DevOps and Tools 🛠️
@@ -104,16 +104,16 @@ function Skills() {
                     📊 Log Analysis and Parsing with AWS CloudWatch
                   </li>
                   <li className="grow-on-hover">
-                    📊 Web Server Configuration
+                    🔧 Web Server Configuration
                   </li>
                   <li className="grow-on-hover">
-                    📊 YAML Configurations for CI/CD
+                    📜 YAML Configurations for CI/CD
                   </li>
                   <li className="grow-on-hover">
                     🚀 Server Administration
                   </li>
                   <li className="grow-on-hover">
-                    🚀 Test Automation
+                    🤖 Test Automation
                   </li>
                   <li className="grow-on-hover">
                     🌐 DNS Configuration
