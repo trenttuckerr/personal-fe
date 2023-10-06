@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/About.css';
-import HoodieImage from '../assets/Hoodie.png';
-import StedsImage from '../assets/Steds.png';
-import AppleImage from '../assets/Apple.jpg';
+import HoodieImage from '../assets/hoodie.png';
+import StedsImage from '../assets/steds.png';
+import AppleImage from '../assets/apple.jpg';
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
