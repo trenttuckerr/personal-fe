@@ -43,7 +43,7 @@ function About() {
               <strong>Education:</strong> I am currently pursuing a
               B.S. computer science degree at St. Edward&apos;s
               University and am set to graduate in May of 2024. During
-              my time here, I have utilized in depth course work and
+              my time here, I have utilized in-depth course work and
               personal projects to dive deep into the nuances of CS.
             </p>
           </div>
