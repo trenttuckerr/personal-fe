@@ -64,7 +64,6 @@ const Education = () => {
               Edward&apos;s: Computing Concepts I, Web Programming,
               Algorithmic-Problem Solving, Computing Concepts II
             </p>
-            {/* <a href="#" data-animation="animated flipInX">read more</a> */}
           </div>
         </div>
         <div
@@ -83,7 +82,6 @@ const Education = () => {
               Algorithms & Data Structures, Computer Security &
               Privacy, Software Engineering
             </p>
-            {/* <a href="#" data-animation="animated flipInX">read more</a> */}
           </div>
         </div>
         <div className="carousel-item">
@@ -97,7 +95,6 @@ const Education = () => {
               CS Courses Taken<br></br>Senior Project, Operating
               Systems, Mobile Programming, Computer Networks
             </p>
-            {/* <a href="#" data-animation="animated flipInX">read more</a> */}
           </div>
         </div>
       </div>
