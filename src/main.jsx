@@ -41,13 +41,13 @@ import './assets/css/Responsive-News-Card-Slider-styles.min.css';
 import './assets/css/Responsive-News-Card-Slider.css';
 import './assets/bootstrap/css/bootstrap.min2.css';
 import './assets/css/Swipe-Slider-9.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
