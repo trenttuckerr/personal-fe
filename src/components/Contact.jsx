@@ -85,13 +85,13 @@ const Contact = () => {
                           style={{ color: 'black' }}
                         ></i>
                       </a>
-                      <a>
+                      <a href="https://www.linkedin.com/in/-trent-tucker/">
                         <i
                           className="fa fa-linkedin"
                           style={{ color: 'black' }}
                         ></i>
                       </a>
-                      <a href="#">
+                      <a href="https://github.com/trenttuckerr">
                         <i
                           className="fa fa-github"
                           style={{ color: 'black' }}
