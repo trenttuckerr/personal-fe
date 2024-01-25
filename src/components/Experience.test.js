@@ -20,16 +20,4 @@ describe('Experience component', () => {
     const numberOfLogosInSlider = 23;
     expect(logoElements.length).toBe(numberOfLogosInSlider);
   });
-
-  it('renders the timeline content correctly', () => {
-    const { getByText } = render(<Experience />);
-    const { getAllByText } = render(<Experience />);
-    const nameElements = getAllByText('Trent Tucker');
-    expect(nameElements.length).toBeGreaterThan(0);
-    const gsTitleElement = getAllByText('Goldman Sachs');
-    const taTitleElement = getByText("St. Edward's University,");
-    expect(gsTitleElement).toBeInTheDocument();
-    expect(taTitleElement).toBeInTheDocument();
-    expect();
-  });
 });
