@@ -315,11 +315,11 @@ const Projects = () => {
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
                     <h2 style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      Compensation Accounting Microservice
+                      AWS Microservice
                     </h2>
                     <p className="text-muted item-intro">
-                      A microservice developed in part of an AWS
-                      rearchitecture of deferred compensation products
+                      A microservice developed in part of a Goldman Sachs
+                      rearchitecture of deferred compensation products to AWS.
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
@@ -332,11 +332,12 @@ const Projects = () => {
                       division, specifically Compensation Accounting.
                       My work fell within a new architecture for our
                       deferred compensation products. These products
-                      were architected to utilize AWS. I developed a
+                      were architected to utilize cloud services on AWS. I developed a
                       microservice using AWS Lambda and AWS API
                       Gateway. Development took place using Node.js,
                       TypeScript, and Jest. By the end of my
-                      internship, I had the API&nbsp;
+                      internship, I had the endpoint exposed for the API. With this,
+                      the scalable service was ready to be called for its business logic.
                     </p>
                     <ul className="list-unstyled">
                       <li
@@ -352,7 +353,7 @@ const Projects = () => {
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Category: Microservices
+                        Category: Microservice, Cloud, Backend
                       </li>
                     </ul>
                     <button
@@ -389,13 +390,13 @@ const Projects = () => {
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
                     <h2 style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      AWS Full-Stack System
+                      Security Key Management App
                     </h2>
                     <p
                       className="text-muted item-intro"
                       style={{ fontFamily: 'DM Sans, sans-serif' }}
                     >
-                      A full-stack project for managing security keys.
+                      A full-stack, AWS cloud-native project which manages security keys for Goldman Sachs.
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
