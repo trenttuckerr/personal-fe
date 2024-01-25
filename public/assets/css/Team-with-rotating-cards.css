@@ -91,12 +91,6 @@
 
 .card-imagia .cover-imagia.cover-gradient {
   background: #ffffff;
-  background-image: radial-gradient(
-    circle at 50% 100%,
-    #ffffff 0%,
-    #000000 33%,
-    #4af626 66%
-  );
 }
 
 .card-imagia .user-imagia {
