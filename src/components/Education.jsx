@@ -21,6 +21,18 @@ const Education = () => {
       >
         Education
       </h2>
+      <h2
+        style={{
+          color: 'white',
+          fontFamily: 'DM Sans, sans-serif',
+          fontSize: '36px',
+          textAlign: 'center',
+          marginBottom: '0px',
+        }}
+      >
+        Computer Science, St. Edward&apos;s University, 2024
+      </h2>
+      <br></br>
       <ol className="carousel-indicators">
         <li
           data-target="#fw_al_007"
