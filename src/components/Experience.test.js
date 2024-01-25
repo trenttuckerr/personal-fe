@@ -27,9 +27,9 @@ describe('Experience component', () => {
     const nameElements = getAllByText('Trent Tucker');
     expect(nameElements.length).toBeGreaterThan(0);
     const gsTitleElement = getAllByText('Goldman Sachs');
-    const taTitleElement = getByText('St. Edward\'s University,');
+    const taTitleElement = getByText("St. Edward's University,");
     expect(gsTitleElement).toBeInTheDocument();
     expect(taTitleElement).toBeInTheDocument();
-    expect()
+    expect();
   });
 });

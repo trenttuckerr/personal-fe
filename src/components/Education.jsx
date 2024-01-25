@@ -30,8 +30,15 @@ const Education = () => {
         <li data-target="#fw_al_007" data-slide-to="1"></li>
         <li data-target="#fw_al_007" data-slide-to="2"></li>
       </ol>
-      <div className="carousel-inner" role="listbox" style={{ minHeight: '400px' }}>
-        <div className="carousel-item active" style={{ background: 'black' }}>
+      <div
+        className="carousel-inner"
+        role="listbox"
+        style={{ minHeight: '400px' }}
+      >
+        <div
+          className="carousel-item active"
+          style={{ background: 'black' }}
+        >
           {/* <img src="assets/img/c-svg.png" alt="fw_al_007_01" /> */}
           <div className="fw_al_007_slide">
             <h3 data-animation="animated flipInX">Austin, Texas</h3>
@@ -48,7 +55,10 @@ const Education = () => {
             {/* <a href="#" data-animation="animated flipInX">read more</a> */}
           </div>
         </div>
-        <div className="carousel-item" style={{background: 'black'}}>
+        <div
+          className="carousel-item"
+          style={{ background: 'black' }}
+        >
           <img src="assets/img/fw_al_007_02.jpg" alt="fw_al_007_02" />
           <div className="fw_al_007_slide">
             <h3 data-animation="animated flipInX">Austin, Texas</h3>

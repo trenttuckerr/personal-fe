@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-scroll';
 
@@ -102,7 +101,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
 
 // import React from 'react';
 // import { Link } from 'react-scroll';
