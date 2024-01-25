@@ -18,7 +18,9 @@
     "package-lock.json",
     "package.json",
     "node_modules/",
-    "coverage/"
+    "coverage/",
+    "src/assets/",
+    "public/assets/"
   ],
   "parserOptions": {
     "ecmaVersion": 2021,
