@@ -16,9 +16,7 @@ describe('Projects component', () => {
 
   it('renders the project details correctly', () => {
     const { getByText } = render(<Projects />);
-    const projectElement = getByText(
-      'Compensation Accounting Microservice'
-    );
+    const projectElement = getByText('AWS Microservice');
     expect(projectElement).toBeInTheDocument();
   });
 
