@@ -4,6 +4,7 @@ const Contact = () => {
   return (
     <section
       className="card-section-imagia"
+      id="contact"
       style={{ background: 'black' }}
     >
       <h2

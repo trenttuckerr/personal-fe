@@ -4,6 +4,7 @@ const Hero = () => {
   return (
     <section
       className="d-xxl-flex justify-content-xxl-center"
+      id="hero"
       style={{
         height: '1068px',
         paddingRight: '50px',

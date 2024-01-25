@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section className="experience-section">
+    <section className="experience-section" id="experience">
       <h2
         style={{
           color: 'white',
