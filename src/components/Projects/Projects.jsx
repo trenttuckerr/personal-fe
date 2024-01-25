@@ -348,7 +348,7 @@ const Projects = () => {
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Users: Goldman Sachs
+                        Developed for: Goldman Sachs
                       </li>
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
@@ -406,14 +406,14 @@ const Projects = () => {
                     <p style={{ fontFamily: 'DM Sans, sans-serif' }}>
                       In the summer of 2023 I returned to Goldman
                       Sachs for another internship. I worked within
-                      the same business division, Controllers, and on
+                      the same division, Controllers and on
                       the same team of Compensation Accounting. This
                       summer I worked on a full-stack project,
                       spanning across 3 repositories: Backend for AWS
                       Lambda functions, Infrastructure as Code for
                       deploying infrastructure, and Frontend for
                       hosting the UI. This project&apos;s purpose was
-                      to create an application to manage and rotate
+                      to create an application that centralizes, manages, and rotates
                       cryptographic security keys. I designed the
                       database schema for this new project and
                       developed database migrations capabilities. The
@@ -435,12 +435,12 @@ const Projects = () => {
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Users: Goldman Sachs
+                        Developed for: Goldman Sachs
                       </li>
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Category: Cloud / Full-Stack
+                        Category: Cloud / Full-Stack / DevOpss
                       </li>
                     </ul>
                     <button
@@ -480,8 +480,7 @@ const Projects = () => {
                       Cloud System Design Service
                     </h2>
                     <p className="text-muted item-intro">
-                      A command line tool that offers various file and
-                      text operations.
+                      A cloud system design tool suite for creating cloud software systems.
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
@@ -504,17 +503,17 @@ const Projects = () => {
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Fall 2023 - Spring 2024
+                        Date: Fall 2023 - Spring 2024
                       </li>
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Code (proprietary)
+                        Developed for: personal project
                       </li>
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Cloud, System Design, DevOps
+                        Category: Cloud, System Design, DevOps
                       </li>
                     </ul>
                     <button
@@ -557,7 +556,7 @@ const Projects = () => {
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
-                    <h2 className="text-uppercase">CLI Tool</h2>
+                    <h2 className="text-uppercase">Command Line Tool</h2>
                     <p className="text-muted item-intro">
                       An operating systems tool for various text and
                       file operations.
@@ -570,15 +569,10 @@ const Projects = () => {
                     <p>
                       I developed a command line tool to offer users a
                       product which gives solutions to various file
-                      and text operations. The software is scalable to
-                      build off of and create more operations as well.
-                      The product is called goattool, and it is
+                      and text operations. The product is called goattool, and it is
                       documented on the linked GitHub repository. I
                       coded the application&apos;s logic in C, and I
-                      created testing using Bash. This project was a
-                      lot of fun being able to interact with a low
-                      level language, C, as well as being able to
-                      create some useful testing scripts using Bash.
+                      created testing using Bash.
                     </p>
                     <ul className="list-unstyled">
                       <li>Date: Fall 2023</li>
@@ -588,7 +582,7 @@ const Projects = () => {
                           https://www.github.com/trenttuckerr/goattool
                         </a>
                       </li>
-                      <li>C, Bash, Operating Systems</li>
+                      <li>Category: C, Bash, Operating Systems</li>
                     </ul>
                     <button
                       className="btn btn-primary"
@@ -619,11 +613,11 @@ const Projects = () => {
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
                     <h2 style={{ fontFamily: 'DM Sans, sans-serif' }}>
-                      Taas PoC
+                      Taas Solution
                     </h2>
                     <p className="text-muted item-intro">
-                      Worked on a scrum team of 9 to develop a Proof
-                      of Concept which offers medically-related
+                      Worked on a scrum team of 9 to develop a Transportation as a Service (TaaS) proof
+                      of concept which offers medically-related
                       solutions using autonomous vehicles.
                     </p>
                     <img
@@ -651,17 +645,20 @@ const Projects = () => {
                       application to demonstrate our services.
                     </p>
                     <ul className="list-unstyled">
-                      <li></li>
-                      <li
+                    <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Spring 2023
+                        Date: Spring 2023
                       </li>
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
-                        Flask, Python, Cloud Services, Linux, HTML,
-                        CSS, Javascript
+                        Developed for: Proof of Concept, Research
+                      </li>
+                      <li
+                        style={{ fontFamily: 'DM Sans, sans-serif' }}
+                      >
+                        Category: Business, Software Engineering, User-Centered Design
                       </li>
                     </ul>
                     <button
@@ -730,8 +727,8 @@ const Projects = () => {
                     </p>
                     <ul className="list-unstyled">
                       <li>Date: Fall 2023</li>
-                      <li>Client: Threads</li>
-                      <li>Category: Illustration</li>
+                      <li>Developed for: personal project</li>
+                      <li>Category: DevOps, React, Frontend</li>
                     </ul>
                     <button
                       className="btn btn-primary"
