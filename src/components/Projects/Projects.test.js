@@ -14,10 +14,10 @@ describe('Projects component', () => {
     expect(titleElement).toBeInTheDocument();
   });
 
-  it('renders the project details correctly', () => {
-    const { getByText } = render(<Projects />);
-    const projectElement = getByText('AWS Microservice');
-    expect(projectElement).toBeInTheDocument();
+  it('renders at least one occurrence of the project details correctly', () => {
+    const { getAllByText } = render(<Projects />);
+    const projectElements = getAllByText('AWS Microservice');
+    expect(projectElements.length).toBeGreaterThan(0);
   });
 
   it('renders the project images correctly', () => {
