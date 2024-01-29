@@ -72,7 +72,7 @@ const Contact = () => {
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
                         Bachelor of Science, Computer Science, St.
-                        Edward&apos;s University (Fall 2021- Spring
+                        Edward&apos;s University (Fall 2021 - Spring
                         2024)
                       </p>
                     </div>
