@@ -51,7 +51,6 @@ const Education = () => {
           className="carousel-item active"
           style={{ background: 'black' }}
         >
-          {/* <img src="assets/img/c-svg.png" alt="fw_al_007_01" /> */}
           <div className="fw_al_007_slide">
             <h3 data-animation="animated flipInX">Austin, Texas</h3>
             <h1 data-animation="animated flipInX">
