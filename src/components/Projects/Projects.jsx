@@ -765,7 +765,7 @@ const Projects = () => {
                     >
                     
                       <i className="fa fa-times" style={{color: '#4AF626'}}></i>
-                      <span style={{color:'4AF626'}}>&nbsp;Close Project</span>
+                      <span style={{color:'#4AF626'}}>&nbsp;Close Project</span>
                     </button>
                   </div>
                 </div>
