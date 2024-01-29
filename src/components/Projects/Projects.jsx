@@ -309,15 +309,24 @@ const Projects = () => {
         id="portfolioModal1"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
-                  <div className="modal-body" style={{ color: 'white' }}>
+                  <div
+                    className="modal-body"
+                    style={{ color: 'white' }}
+                  >
                     <h2 style={{ fontFamily: 'DM Sans, sans-serif' }}>
                       AWS Lambda Microservice
                     </h2>
-                    <p className="item-intro" style={{ color: '#4AF626' }} >
+                    <p
+                      className="item-intro"
+                      style={{ color: '#4AF626' }}
+                    >
                       A microservice developed in part of a Goldman
                       Sachs rearchitecture of deferred compensation
                       products to AWS.
@@ -327,7 +336,12 @@ const Projects = () => {
                       src="assets/img/Microservice-Visual.png"
                       alt="Microservices"
                     />
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}>
+                    <p
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       In the summer of 2022 I interned at Goldman
                       Sachs. I was working within the Controllers
                       division, specifically Compensation Accounting.
@@ -341,7 +355,10 @@ const Projects = () => {
                       the API. With this, the scalable service was
                       ready to be called for its business logic.
                     </p>
-                    <ul className="list-unstyled" style={{ color: 'white' }}>
+                    <ul
+                      className="list-unstyled"
+                      style={{ color: 'white' }}
+                    >
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
@@ -357,7 +374,7 @@ const Projects = () => {
                       >
                         Category: Microservice, Cloud, Backend
                       </li>
-                    </ul>                    
+                    </ul>
                     <button
                       className="btn btn-primary"
                       type="button"
@@ -369,8 +386,13 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                      <i className="fa fa-times" style={{color:'#4AF626'}}></i>
-                      <span style={{color:'#4AF626'}}>&nbsp;Close Project</span>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
+                      <span style={{ color: '#4AF626' }}>
+                        &nbsp;Close Project
+                      </span>
                     </button>
                   </div>
                 </div>
@@ -387,17 +409,28 @@ const Projects = () => {
         id="portfolioModal2"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
-                    <h2 style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}>
+                    <h2
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       Security Key Management App
                     </h2>
                     <p
                       className="item-intro"
-                      style={{ fontFamily: 'DM Sans, sans-serif', color: '#4AF626' }}
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: '#4AF626',
+                      }}
                     >
                       A full-stack, AWS cloud-native project which
                       manages security keys for Goldman Sachs.
@@ -407,7 +440,12 @@ const Projects = () => {
                       src="assets/img/Security-Key-Visual.jpg"
                       alt="Key Logo"
                     />
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}>
+                    <p
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       In the summer of 2023 I returned to Goldman
                       Sachs for another internship. I worked within
                       the same division, Controllers and on the same
@@ -430,7 +468,10 @@ const Projects = () => {
                       went through strenuous security checks through
                       Goldman CI/CD Pipelines.
                     </p>
-                    <ul className="list-unstyled" style={{ color: 'white' }}>
+                    <ul
+                      className="list-unstyled"
+                      style={{ color: 'white' }}
+                    >
                       <li
                         style={{ fontFamily: 'DM Sans, sans-serif' }}
                       >
@@ -459,8 +500,13 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                      <i className="fa fa-times" style={{color:'#4AF626'}}></i>
-                      <span style={{color:'#4AF626'}}>&nbsp;Close Project</span>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
+                      <span style={{ color: '#4AF626' }}>
+                        &nbsp;Close Project
+                      </span>
                     </button>
                   </div>
                 </div>
@@ -477,15 +523,26 @@ const Projects = () => {
         id="portfolioModal3"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
-                    <h2 style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}>
+                    <h2
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       Cloud System Design Service
                     </h2>
-                    <p className="item-intro" style={{ color:'#4AF626' }}>
+                    <p
+                      className="item-intro"
+                      style={{ color: '#4AF626' }}
+                    >
                       A cloud system design tool suite for creating
                       cloud software systems.
                     </p>
@@ -494,7 +551,12 @@ const Projects = () => {
                       src="assets/img/Cloud-Computing-Visual.webp"
                       alt="Cloud System Design"
                     />
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }} >
+                    <p
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       I developed a system design tool for
                       cloud-native software applications. This project
                       offers various services, including up-to-date
@@ -506,17 +568,26 @@ const Projects = () => {
                     </p>
                     <ul className="list-unstyled">
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Date: Fall 2023 - Spring 2024
                       </li>
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Developed for: personal project
                       </li>
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Category: Cloud, System Design, DevOps
                       </li>
@@ -532,7 +603,10 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                      <i className="fa fa-times" style={{color: '#4AF626'}}></i>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
                       <span
                         style={{
                           fontFamily: 'DM Sans, sans-serif',
@@ -557,7 +631,10 @@ const Projects = () => {
         id="portfolioModal4"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
@@ -565,7 +642,10 @@ const Projects = () => {
                     <h2 style={{ color: 'white' }}>
                       Command Line Tool
                     </h2>
-                    <p className="item-intro" style = {{ color:'#4AF626' }}>
+                    <p
+                      className="item-intro"
+                      style={{ color: '#4AF626' }}
+                    >
                       An operating systems tool for various text and
                       file operations.
                     </p>
@@ -583,7 +663,10 @@ const Projects = () => {
                       application&apos;s logic in C, and I created
                       testing using Bash.
                     </p>
-                    <ul className="list-unstyled" style={{ color: 'white' }}>
+                    <ul
+                      className="list-unstyled"
+                      style={{ color: 'white' }}
+                    >
                       <li>Date: Fall 2023</li>
                       <li>
                         GitHub:{' '}
@@ -604,8 +687,13 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                      <i className="fa fa-times" style={{color:'#4AF626'}}></i>
-                      <span style={{color:'#4AF626'}}>&nbsp;Close Project</span>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
+                      <span style={{ color: '#4AF626' }}>
+                        &nbsp;Close Project
+                      </span>
                     </button>
                   </div>
                 </div>
@@ -622,15 +710,26 @@ const Projects = () => {
         id="portfolioModal5"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
-                    <h2 style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}>
+                    <h2
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       Autonomous Vehicle PoC
                     </h2>
-                    <p className="item-intro" style={{color:'#4AF626'}}>
+                    <p
+                      className="item-intro"
+                      style={{ color: '#4AF626' }}
+                    >
                       Worked on a scrum team of 9 to develop a
                       Transportation as a Service (TaaS) proof of
                       concept which offers medically-related solutions
@@ -641,38 +740,53 @@ const Projects = () => {
                       src="assets/img/PoC-Visual.jpg"
                       alt="Desk with notes and computer"
                     />
-                    <p style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}>
+                    <p
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       Autonomous Vehicles are in interesting and
                       inspiring topic. Aside from its primary
                       function, to transport a human, how can we
                       utilize this powerful technology to improve the
                       quality of life for society? I worked on a scrum
-                      team to develop solutions for a Transportation as
-                      a Service project. The solutions served various
-                      medically-related problems that can be solved with
-                      the usage of autonomous vehicles to accomplish
-                      the task. The team of 9 rotated different
-                      positions throughout the 4 month time period. I
-                      was devops engineer, backend developer, and
-                      frontend developer. With the wide range of work
-                      the positions offered me, I was able to gather
-                      insights from various perspectives of a software
-                      project. The team developed a mutlicloud web
-                      application to demonstrate our services.
+                      team to develop solutions for a Transportation
+                      as a Service project. The solutions served
+                      various medically-related problems that can be
+                      solved with the usage of autonomous vehicles to
+                      accomplish the task. The team of 9 rotated
+                      different positions throughout the 4 month time
+                      period. I was devops engineer, backend
+                      developer, and frontend developer. With the wide
+                      range of work the positions offered me, I was
+                      able to gather insights from various
+                      perspectives of a software project. The team
+                      developed a mutlicloud web application to
+                      demonstrate our services.
                     </p>
                     <ul className="list-unstyled">
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Date: Spring 2023
                       </li>
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Developed for: Proof of Concept, Research
                       </li>
                       <li
-                        style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: 'white',
+                        }}
                       >
                         Category: Business, Software Engineering,
                         User-Centered Design
@@ -690,9 +804,15 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                      <i className="fa fa-times" style={{color:'#4AF626'}}></i>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
                       <span
-                        style={{ fontFamily: 'DM Sans, sans-serif', color:'#4AF626' }}
+                        style={{
+                          fontFamily: 'DM Sans, sans-serif',
+                          color: '#4AF626',
+                        }}
                       >
                         &nbsp;Close Project
                       </span>
@@ -711,15 +831,26 @@ const Projects = () => {
         id="portfolioModal6"
       >
         <div className="modal-dialog modal-lg" role="document">
-          <div className="modal-content" style={{ backgroundColor: 'black' }}>
+          <div
+            className="modal-content"
+            style={{ backgroundColor: 'black' }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-lg-8 mx-auto">
                   <div className="modal-body">
-                    <h2 style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}>
+                    <h2
+                      style={{
+                        fontFamily: 'DM Sans, sans-serif',
+                        color: 'white',
+                      }}
+                    >
                       Personal Website
                     </h2>
-                    <p className="item-intro" style={{color:'#4AF626'}}>
+                    <p
+                      className="item-intro"
+                      style={{ color: '#4AF626' }}
+                    >
                       Created my personal website using React,
                       DigitalOcean, and GoDaddy.
                     </p>
@@ -745,7 +876,10 @@ const Projects = () => {
                       my codebase. I will update this site
                       occasionally, when I see fit.
                     </p>
-                    <ul className="list-unstyled" style={{ color:'white' }}>
+                    <ul
+                      className="list-unstyled"
+                      style={{ color: 'white' }}
+                    >
                       <li>Date: Fall 2023</li>
                       <li>
                         GitHub:{' '}
@@ -766,9 +900,13 @@ const Projects = () => {
                         borderColor: '#4AF626',
                       }}
                     >
-                    
-                      <i className="fa fa-times" style={{color: '#4AF626'}}></i>
-                      <span style={{color:'#4AF626'}}>&nbsp;Close Project</span>
+                      <i
+                        className="fa fa-times"
+                        style={{ color: '#4AF626' }}
+                      ></i>
+                      <span style={{ color: '#4AF626' }}>
+                        &nbsp;Close Project
+                      </span>
                     </button>
                   </div>
                 </div>

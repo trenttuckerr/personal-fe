@@ -37,9 +37,9 @@
         mainNav.classList.remove('navbar-shrink');
       }
     };
-    
+
     collapseNavbar();
-    
+
     document.addEventListener('scroll', collapseNavbar);
 
     var modals = document.querySelectorAll('.portfolio-modal');
