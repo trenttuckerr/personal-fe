@@ -38,7 +38,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/microservices.png"
+                  src="assets/img/Microservice-Visual.png"
                   style={{ width: '400px', height: '400px' }}
                 />
               </a>
@@ -84,7 +84,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/key-logo.jpg"
+                  src="assets/img/Security-Key-Visual.jpg"
                   style={{ height: '400px' }}
                 />
               </a>
@@ -130,7 +130,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/cso_nw_cloud_computing_cloud_network_circuits_by_denis_isakov_gettyimages-966932508_2400x1600-100814451-large-100929305-large.webp"
+                  src="assets/img/Cloud-Computing-Visual.webp"
                   style={{ height: '400px' }}
                 />
               </a>
@@ -176,7 +176,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/BetterTermScreenshot.png"
+                  src="assets/img/Goattool-Terminal.png"
                   style={{ height: '400px' }}
                 />
               </a>
@@ -222,7 +222,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/portfolio/5-thumbnail.jpg"
+                  src="assets/img/PoC-Visual.jpg"
                   style={{ height: '400px' }}
                 />
               </a>
@@ -268,7 +268,7 @@ const Projects = () => {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/unnamed.png"
+                  src="assets/img/Trent-T-Logo-White-Background.png"
                   style={{ height: '400px' }}
                 />
               </a>
@@ -324,7 +324,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/portfolio/microservices.png"
+                      src="assets/img/Microservice-Visual.png"
                       alt="Microservices"
                     />
                     <p style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}>
@@ -404,7 +404,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/portfolio/key-logo.jpg"
+                      src="assets/img/Security-Key-Visual.jpg"
                       alt="Key Logo"
                     />
                     <p style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }}>
@@ -491,7 +491,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/portfolio/cso_nw_cloud_computing_cloud_network_circuits_by_denis_isakov_gettyimages-966932508_2400x1600-100814451-large-100929305-large.webp"
+                      src="assets/img/Cloud-Computing-Visual.webp"
                       alt="Cloud System Design"
                     />
                     <p style={{ fontFamily: 'DM Sans, sans-serif', color:'white' }} >
@@ -573,7 +573,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/portfolio/BetterTermScreenshot.png"
+                      src="assets/img/Goattool-Terminal.png"
                       alt="Screenshot of the CLI Tool"
                     />
                     <p style={{ color: 'white' }}>
@@ -640,7 +640,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/portfolio/5-full.jpg"
+                      src="assets/img/PoC-Visual.jpg"
                       alt="Desk with notes and computer"
                     />
                     <p style={{ fontFamily: 'DM Sans, sans-serif', color: 'white' }}>
@@ -727,7 +727,7 @@ const Projects = () => {
                     </p>
                     <img
                       className="img-fluid d-block mx-auto"
-                      src="assets/img/unnamed.png"
+                      src="assets/img/Trent-T-Logo-White-Background.png"
                       alt="Personal Website"
                     />
                     <p style={{ color: 'white' }}>

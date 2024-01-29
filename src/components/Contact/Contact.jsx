@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="front-imagia">
                   <div className="cover-imagia cover-gradient"></div>
                   <div className="user-imagia">
-                    <img alt="" src="assets/img/IMG_3031-2.jpg" />
+                    <img alt="" src="assets/img/Trent-Face.jpg" />
                   </div>
                   <div className="content-imagia">
                     <h3

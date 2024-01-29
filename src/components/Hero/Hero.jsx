@@ -18,7 +18,7 @@ const Hero = () => {
         style={{
           height: '862px',
           background:
-            'url("assets/img/jeremy-doddridge-Ui_7PiqnNbs-unsplash.jpg") center / cover',
+            'url("assets/img/Austin-Sunset.jpg") center / cover',
           width: '100%',
         }}
       >
@@ -33,7 +33,7 @@ const Hero = () => {
                   <div className="front-imagia">
                     <div className="cover-imagia cover-gradient"></div>
                     <div className="user-imagia">
-                      <img alt="" src="assets/img/IMG_3031-2.jpg" />
+                      <img alt="" src="assets/img/Trent-Face.jpg" />
                     </div>
                     <div className="content-imagia">
                       <h3

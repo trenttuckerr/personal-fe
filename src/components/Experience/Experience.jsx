@@ -17,31 +17,31 @@ const Experience = () => {
       <div data-aos="fade-up" className="logos">
         <div className="logos-slide">
           <img
-            src="assets/img/flask-white.png"
+            src="assets/img/Flask-White-Logo.png"
             width="48"
             height="50"
           />
-          <img src="assets/img/image%20(1).png" />
-          <img src="assets/img/junit-24.png" />
-          <img src="assets/img/React-icon.svg.png" />
-          <img src="assets/img/ts-icon.png" />
-          <img src="assets/img/Vitejs-logo.svg.png" />
-          <img src="assets/img/python.svg.png" />
-          <img src="assets/img/node-black.png" />
-          <img src="assets/img/java-svg.png" />
-          <img src="assets/img/javascripy-svg.png" />
+          <img src="assets/img/AWS-Logo.png" />
+          <img src="assets/img/Junit-Logo.png" />
+          <img src="assets/img/React-Logo.png" />
+          <img src="assets/img/TS-Logo.png" />
+          <img src="assets/img/Vite-Logo.png" />
+          <img src="assets/img/Python-Logo.png" />
+          <img src="assets/img/Node-Logo.png" />
+          <img src="assets/img/Java-Logo.png" />
+          <img src="assets/img/JavaScript-Logo.png" />
         </div>
         <div className="logos-slide">
-          <img src="assets/img/lambda-svg.svg" />
-          <img src="assets/img/django-svg.svg" />
-          <img src="assets/img/ele.png" />
-          <img src="assets/img/image%20(2).png" />
-          <img src="assets/img/c-svg.png" />
-          <img src="assets/img/DigitalOcean_icon.svg.png" />
-          <img src="assets/img/docker-circle.svg" />
-          <img src="assets/img/glcicd.png" />
-          <img src="assets/img/awsapigw.png" />
-          <img src="assets/img/bslsvg.png" />
+          <img src="assets/img/Lambda-Logo.svg" />
+          <img src="assets/img/Django-Logo.svg" />
+          <img src="assets/img/Postgres-Logo.png" />
+          <img src="assets/img/Swift-Logo.png" />
+          <img src="assets/img/C-Logo.png" />
+          <img src="assets/img/DigitalOcean-Logo.png" />
+          <img src="assets/img/Docker-Logo.svg" />
+          <img src="assets/img/GitLab-CICD-Logo.png" />
+          <img src="assets/img/AWS-APIGW-Logo.png" />
+          <img src="assets/img/Bootstrap-Studio-Logo.png" />
         </div>
       </div>
       <section id="section-timeline">
@@ -73,7 +73,7 @@ const Experience = () => {
               </p>
               <picture>
                 <img
-                  src="assets/img/gsachsdesignsvg.png"
+                  src="assets/img/Goldman-Sachs-Logo.png"
                   style={{ width: '192px', height: '176px' }}
                 />
               </picture>
@@ -103,7 +103,7 @@ const Experience = () => {
               </p>
               <picture>
                 <img
-                  src="assets/img/gsachsdesignsvg.png"
+                  src="assets/img/Goldman-Sachs-Logo.png"
                   style={{ width: '192px', height: '176px' }}
                 />
               </picture>
@@ -129,7 +129,7 @@ const Experience = () => {
               </p>
               <picture>
                 <img
-                  src="assets/img/znewest.png"
+                  src="assets/img/St-Edwards-Logo.png"
                   style={{ width: '192px', height: '176px' }}
                 />
               </picture>

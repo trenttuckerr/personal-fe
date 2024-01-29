@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <picture className="mr-auto">
           <img
-            src="assets/img/image(1).png"
+            src="assets/img/Trent-T-Logo.png"
             style={{ width: '50px' }}
           />
         </picture>
