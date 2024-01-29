@@ -4,7 +4,7 @@ import './assets/bootstrap/css/Bootstrap-Min.css';
 import './assets/fonts/Font-Awesome-Min.css';
 import './assets/css/bs-theme-overrides.css';
 import './assets/css/Aos-Min.css';
-import './assets/css/Banner-Heading-Image-Images.css';
+import './assets/css/Banner-Heading-Images.css';
 import './assets/css/Client-Logo-Slider.css';
 import './assets/css/Features-Small-Icons-Color-Icons.css';
 import './assets/css/Responsive-Blog-Card-Slider.css';
