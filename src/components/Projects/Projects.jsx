@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Projects = () => {
-  const [backgroundColor, setBackgroundColor] = useState('black');
-
   return (
     <>
       <section
