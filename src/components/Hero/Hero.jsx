@@ -23,7 +23,7 @@ const Hero = () => {
         }}
       >
         <div className="container">
-          <div className="row d-xxl-flex justify-content-xxl-center">
+          <div className="row d-lg-flex d-xxl-flex justify-content-center justify-content-xxl-center">
             <div className="col-sm-6 col-md-4 d-xxl-flex">
               <div
                 className="card-container-imagia"
