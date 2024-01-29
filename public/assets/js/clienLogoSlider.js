@@ -3,7 +3,6 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
-// import $ from 'jquery';
 
 $(document).ready(function () {
   $('.customer-logos').slick({
