@@ -69,7 +69,7 @@ const Education = () => {
           className="carousel-item"
           style={{ background: 'black' }}
         >
-          <img src="assets/img/fw_al_007_02.jpg" alt="fw_al_007_02" />
+          {/* <img src="assets/img/fw_al_007_02.jpg" alt="fw_al_007_02" /> */}
           <div className="fw_al_007_slide">
             <h3 data-animation="animated flipInX">Austin, Texas</h3>
             <h1 data-animation="animated flipInX">
@@ -84,7 +84,7 @@ const Education = () => {
           </div>
         </div>
         <div className="carousel-item">
-          <img src="assets/img/fw_al_007_03.jpg" alt="fw_al_007_03" />
+          {/* <img src="assets/img/fw_al_007_03.jpg" alt="fw_al_007_03" /> */}
           <div className="fw_al_007_slide">
             <h3 data-animation="animated flipInX">Austin, Texas</h3>
             <h1 data-animation="animated flipInX">

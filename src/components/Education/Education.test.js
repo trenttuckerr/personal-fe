@@ -28,11 +28,4 @@ describe('Education component', () => {
     const numberOfIndicatorElements = 3;
     expect(indicatorElements.length).toBe(numberOfIndicatorElements);
   });
-
-  it('renders the carousel images correctly', () => {
-    const { getAllByRole } = render(<Education />);
-    const imageElements = getAllByRole('img');
-    const numberOfImageElements = 2;
-    expect(imageElements.length).toBe(numberOfImageElements);
-  });
 });
