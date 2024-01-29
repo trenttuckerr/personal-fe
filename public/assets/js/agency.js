@@ -1,5 +1,5 @@
 (function () {
-  'use strict'; // Start of use strict
+  'use strict';
 
   var mainNav = document.querySelector('#mainNav');
 
@@ -21,7 +21,6 @@
       }
     }
 
-    // Collapse Navbar
     var collapseNavbar = function () {
       var scrollTop =
         window.pageYOffset !== undefined
@@ -38,12 +37,11 @@
         mainNav.classList.remove('navbar-shrink');
       }
     };
-    // Collapse now if page is not at top
+    
     collapseNavbar();
-    // Collapse the navbar when page is scrolled
+    
     document.addEventListener('scroll', collapseNavbar);
 
-    // Hide navbar when modals trigger
     var modals = document.querySelectorAll('.portfolio-modal');
 
     for (var modal of modals) {
@@ -56,4 +54,4 @@
       });
     }
   }
-})(); // End of use strict
+})();
