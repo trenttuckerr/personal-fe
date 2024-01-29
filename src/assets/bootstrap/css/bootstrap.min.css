@@ -178,6 +178,7 @@
   --bs-link-hover-color: #fee99e;
   --bs-link-color-rgb: 254, 227, 134;
   --bs-link-hover-color-rgb: 254, 233, 158;
+  --bs-link-hover-color-rgb: 220, 220, 220;
   --bs-code-color: #e685b5;
   --bs-highlight-color: #dee2e6;
   --bs-highlight-bg: #664d03;
@@ -12731,8 +12732,10 @@ section .section-subheading.h3 {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  /* background-color: #fec810 !important; */
+  background-color: #333333 !important;
+  /* border-color: #fec810 !important; */
+  border-color: #333333 !important;
   color: #fff;
 }
 .btn-primary:active,
