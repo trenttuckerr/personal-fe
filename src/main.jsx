@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './assets/bootstrap/css/Bootstrap-Min.css';
 import './assets/fonts/Font-Awesome-Min.css';
-import './assets/css/Bs-Theme-Overrides.css';
+import './assets/css/bs-theme-overrides.css';
 import './assets/css/Aos-Min.css';
 import './assets/css/Banner-Heading-Image-Images.css';
 import './assets/css/Client-Logo-Slider.css';
