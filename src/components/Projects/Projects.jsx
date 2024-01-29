@@ -502,9 +502,7 @@ const Projects = () => {
                       recommended services based on use case. The
                       frontend of the project is developed using
                       React, and the backend uses Django. All
-                      deployments are made on DigitalOcean droplet,
-                      which uses Nginx and Gunicorn for hosting the
-                      project.
+                      deployments are made on a DigitalOcean droplet.
                     </p>
                     <ul className="list-unstyled">
                       <li
@@ -648,10 +646,10 @@ const Projects = () => {
                       inspiring topic. Aside from its primary
                       function, to transport a human, how can we
                       utilize this powerful technology to improve the
-                      quality of life for society. I worked on a scrum
-                      team to develop plugins for a Transportation as
-                      a Service project. The plugins served various
-                      medically-related issues that can be solved with
+                      quality of life for society? I worked on a scrum
+                      team to develop solutions for a Transportation as
+                      a Service project. The solutions served various
+                      medically-related problems that can be solved with
                       the usage of autonomous vehicles to accomplish
                       the task. The team of 9 rotated different
                       positions throughout the 4 month time period. I
@@ -749,7 +747,12 @@ const Projects = () => {
                     </p>
                     <ul className="list-unstyled" style={{ color:'white' }}>
                       <li>Date: Fall 2023</li>
-                      <li>Developed for: personal project</li>
+                      <li>
+                        GitHub:{' '}
+                        <a href="https://www.github.com/trenttuckerr/personal-fe">
+                          https://www.github.com/trenttuckerr/personal-fe
+                        </a>
+                      </li>
                       <li>Category: DevOps, React, Frontend</li>
                     </ul>
                     <button
