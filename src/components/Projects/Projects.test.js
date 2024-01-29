@@ -16,7 +16,7 @@ describe('Projects component', () => {
 
   it('renders at least one occurrence of the project details correctly', () => {
     const { getAllByText } = render(<Projects />);
-    const projectElements = getAllByText('AWS Microservice');
+    const projectElements = getAllByText('AWS Lambda Microservice');
     expect(projectElements.length).toBeGreaterThan(0);
   });
 
